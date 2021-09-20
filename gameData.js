@@ -214,6 +214,13 @@ let gameData = [
         myRating: 8, 
         gameConsole: ['ps3'], 
         keywords: ['singleplayer', 'survival-horror', 'third-person-shooter'] 
+    },  
+    {
+        title: "Deadstorm Pirates 4D", 
+        yearReleased: 2010, 
+        myRating: 6, 
+        gameConsole: ['arcade'], 
+        keywords: ['singleplayer', 'co-op', 'rail-shooter'] 
     }, 
     {
         title: "Dear Esther", 
