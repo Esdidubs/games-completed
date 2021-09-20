@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Games I've Beaten</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+  <header>Games I've Beaten  <i class="fa fa-gamepad"></i></header>
+  <div id="buttons">
+    <label for="dataSelection" id="mainLabel">Select an option</label>
+    <select name="dataSelection" id="dataSelection" class="dataDrop">           
+        <option value="all" >All of the Games I've Read</option>
+        <option value="rankedBtn">Games By My Rating</option>
+        <option value="category">Games By Keyword</option>
+        <option value="pubDate">Games By Year Originally Published</option>
+        <option value="console" >Games By Console</option>
+    </select>
+  </div>
+  <hr />
+  <div class="allGames"></div>
+  <div class="yearBox"></div>
+  <div class="rankBox"></div>
+  <div class="categoryBox"></div>
+  <div class="pubBox"></div>
+  <div class="consoleBox"></div>
+  <script
+  src="https://code.jquery.com/jquery-3.5.1.js"
+  integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+  crossorigin="anonymous"></script>
+  <script src="gameData.js"></script>
+  <script src="functionality.js"></script>
+</body>
+</html>
