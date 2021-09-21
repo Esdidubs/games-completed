@@ -121,14 +121,14 @@ let gameData = [
         title: "Borderlands", 
         yearReleased: 2009, 
         myRating: 7, 
-        gameConsole: ['360'], 
+        gameConsole: ['x360'], 
         keywords: ['singleplayer', 'multiplayer', 'co-op', 'fps', 'rpg'] 
     }, 
     {
         title: "Braid", 
         yearReleased: 2008, 
         myRating: 6, 
-        gameConsole: ['pc', '360'], 
+        gameConsole: ['pc', 'x360'], 
         keywords: ['singleplayer', 'puzzle', 'platformer'] 
     }, 
     {
@@ -149,7 +149,7 @@ let gameData = [
         title: "Call of Duty: Black Ops", 
         yearReleased: 2010, 
         myRating: 7, 
-        gameConsole: ['360'], 
+        gameConsole: ['x360'], 
         keywords: ['singleplayer', 'multiplayer', 'co-op', 'fps'] 
     }, 
     {
@@ -184,7 +184,7 @@ let gameData = [
         title: "Condemned: Criminal Origins", 
         yearReleased: 2005, 
         myRating: 6, 
-        gameConsole: ['360'], 
+        gameConsole: ['x360'], 
         keywords: ['singleplayer', 'survival-horror'] 
     }, 
     {
@@ -310,7 +310,7 @@ let gameData = [
         title: "Gears of War", 
         yearReleased: 2006, 
         myRating: 8, 
-        gameConsole: ['360', 'xb1'], 
+        gameConsole: ['x360', 'xb1'], 
         keywords: ['singleplayer', 'multiplayer', 'co-op', 'third-person-shooter'] 
     }, 
     {
@@ -366,21 +366,21 @@ let gameData = [
         title: "Halo 2", 
         yearReleased: 2004, 
         myRating: 9, 
-        gameConsole: ['xbox', '360', 'xb1'], 
+        gameConsole: ['xbox', 'x360', 'xb1'], 
         keywords: ['singleplayer', 'multiplayer', 'co-op', 'fps'] 
     }, 
     {
         title: "Halo 3", 
         yearReleased: 2007, 
         myRating: 9, 
-        gameConsole: ['360', 'xb1'], 
+        gameConsole: ['x360', 'xb1'], 
         keywords: ['singleplayer', 'multiplayer', 'co-op', 'fps'] 
     }, 
     {
         title: "Halo 3: ODST", 
         yearReleased: 2009, 
         myRating: 6, 
-        gameConsole: ['360', 'xb1'], 
+        gameConsole: ['x360', 'xb1'], 
         keywords: ['singleplayer', 'multiplayer', 'co-op', 'fps'] 
     }, 
     {
@@ -394,7 +394,7 @@ let gameData = [
         title: "Halo: Combat Evolved", 
         yearReleased: 2001, 
         myRating: 7, 
-        gameConsole: ['xbox', '360'], 
+        gameConsole: ['xbox', 'x360'], 
         keywords: ['singleplayer', 'multiplayer', 'co-op', 'fps'] 
     }, 
     {
@@ -408,7 +408,7 @@ let gameData = [
         title: "Halo: Reach", 
         yearReleased: 2010, 
         myRating: 6, 
-        gameConsole: ['360'], 
+        gameConsole: ['x360'], 
         keywords: ['singleplayer', 'multiplayer', 'co-op', 'fps'] 
     }, 
     {
@@ -527,7 +527,7 @@ let gameData = [
         title: "Left 4 Dead", 
         yearReleased: 2008, 
         myRating: 8, 
-        gameConsole: ['360', 'pc'], 
+        gameConsole: ['x360', 'pc'], 
         keywords: ['singleplayer', 'multiplayer', 'co-op', 'fps', 'survival-horror'] 
     }, 
     {
@@ -562,7 +562,7 @@ let gameData = [
         title: "Limbo", 
         yearReleased: 2010, 
         myRating: 10, 
-        gameConsole: ['360', 'xb1', 'ps4', 'pc'], 
+        gameConsole: ['x360', 'xb1', 'ps4', 'pc'], 
         keywords: ['singleplayer', 'puzzle', 'platformer', 'adventure'] 
     }, 
     {
@@ -611,7 +611,7 @@ let gameData = [
         title: "Mario Kart 8", 
         yearReleased: 2014, 
         myRating: 10, 
-        gameConsole: ['wii u', 'ns'], 
+        gameConsole: ['wiiu', 'ns'], 
         keywords: ['singleplayer', 'multiplayer', 'party', 'racing'] 
     }, 
     {
@@ -912,7 +912,7 @@ let gameData = [
         title: "Portal 2", 
         yearReleased: 2011, 
         myRating: 10, 
-        gameConsole: ['pc', '360', 'xb1'], 
+        gameConsole: ['pc', 'x360', 'xb1'], 
         keywords: ['singleplayer', 'co-op', 'puzzle', 'platformer'] 
     }, 
     {
@@ -1227,7 +1227,7 @@ let gameData = [
         title: "Super Meat Boy", 
         yearReleased: 2010, 
         myRating: 8, 
-        gameConsole: ['360', 'xb1'], 
+        gameConsole: ['x360', 'xb1'], 
         keywords: ['singleplayer', 'platformer'] 
     }, 
     {
