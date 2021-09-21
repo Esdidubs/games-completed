@@ -10,24 +10,53 @@
 $(document).ready(function() {
     makeHidden();
 	displayData();
-    setRandomColor();
+	setGradient();
 });
 
-function setRandomColor(){
+function setGradient(){
 	$('.game').each(function () {
-		$(this).css("background-color", random_color());
+		let current = $(this).find('.gameConsole');
+		if(current.text().includes(',')){
+			$(this).css("background-image", gradient(current.text()));
+			if(current.text().includes('ps2') || current.text().includes('ps3') || current.text().includes('ps4')){
+				$(this).css("color", "white");
+			}
+		} else {
+			$(this).css("background-color", `var(--${current.text()})`);
+			let rgb = $(this).css("background-color");
+
+			let colorArr = rgb.slice(
+				rgb.indexOf("(") + 1, 
+				rgb.indexOf(")")
+			).split(", ");
+
+			$(this).css("color", setTextColor(colorArr));
+		}
 	})
 }
 
-function random_color() {
-	var letters = '0123456789ABCDEF'.split('');
-	var color = '#';
-	for (var i = 0; i < 6; i++ ) {
-		color += letters[Math.round(Math.random() * 15)];
+function setTextColor(rgb){
+	const brightness = Math.round(((parseInt(rgb[0]) * 299) +
+                      (parseInt(rgb[1]) * 587) +
+                      (parseInt(rgb[2]) * 114)) / 1000);
+	const textColour = (brightness > 125) ? 'black' : 'white';
+	return textColour;
+
+}
+
+function gradient(str){
+	// `linear-gradient(var(--${current.text()}))`
+	let consoleArr = str.split(",");
+	let linStr = `linear-gradient(to bottom right, `;
+	for (let con in consoleArr){
+		linStr += `var(--${consoleArr[con]}),`;
 	}
-	color+='40';
-	return color;
-};
+	linStr = linStr.slice(0, -1);
+	linStr += `)`;
+	return linStr;
+
+
+}
 
 // Hide everything then display something when dropdown is changed
 $('#dataSelection').on('change', function() {
@@ -39,25 +68,25 @@ $('#dataSelection').on('change', function() {
 $(document).on('change', '#categorySelection', function(){
     event.preventDefault();
 	displayCategory();
-	setRandomColor();
+	
 });
 
 $(document).on('change', '#rankSelection', function(){
     event.preventDefault();
 	displayRanks();
-	setRandomColor();
+	
 });
 
 $(document).on('change', '#pubDateSelection', function(){
     event.preventDefault();
 	displayPubDates();
-	setRandomColor();
+	
 });
 
 $(document).on('change', '#consoleSelection', function(){
     event.preventDefault();
 	displayConsole();
-	setRandomColor();
+	
 });
 
 //#endregion
@@ -80,27 +109,27 @@ function displayData() {
 		case 'all':
 			allGames();
 			$('.allGames').show();
-			setRandomColor();
+			
 			break;
 		case 'category':
 			categorySetup();	
 			$('.categoryBox').show();
-			setRandomColor();
+			
 			break;
 		case 'rankedBtn':
 			rankSetup();
 			$('.rankBox').show();
-			setRandomColor();
+			
 			break;
 		case 'pubDate':
 			pubDateSetup();
 			$('.pubBox').show();
-			setRandomColor();
+			
 			break;
 		case 'console':
 			consoleSetup();	
 			$('.consoleBox').show();
-			setRandomColor();
+			
 			break;
 	}
 }
