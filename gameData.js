@@ -1481,6 +1481,13 @@ let gameData = [
         myRating: 10, 
         gameConsole: ['ps3', 'ps4'], 
         keywords: ['singleplayer', 'action-adventure', 'third-person-shooter'] 
+    },  
+    {
+        title: "Unpacking", 
+        yearReleased: 2021, 
+        myRating: 8, 
+        gameConsole: ['xsx'], 
+        keywords: ['singleplayer', 'puzzle', 'casual'] 
     }, 
     {
         title: "Untitled Goose Game", 
