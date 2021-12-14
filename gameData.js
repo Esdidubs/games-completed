@@ -277,6 +277,13 @@ let gameData = [
         myRating: 7, 
         gameConsole: ['ps3'], 
         keywords: ['singleplayer', 'adventure', 'art'] 
+    },  
+    {
+        title: "Forza Horizon 5", 
+        yearReleased: 2021, 
+        myRating: 9, 
+        gameConsole: ['xsx'], 
+        keywords: ['singleplayer', 'multiplayer', 'racing', 'simulation', 'adventure', 'action'] 
     }, 
     {
         title: "Fractured Minds", 
