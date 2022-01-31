@@ -34,6 +34,13 @@ let gameData = [
         keywords: ['singleplayer', 'platformer', 'side-scroller'] 
     }, 
     {
+        title: "A Short Hike", 
+        yearReleased: 2019, 
+        myRating: 9, 
+        gameConsole: ['xsx'], 
+        keywords: ['singleplayer', 'adventure', 'casual'] 
+    }, 
+    {
         title: "ABZU", 
         yearReleased: 2016, 
         myRating: 6, 
