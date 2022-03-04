@@ -68,25 +68,25 @@ $('#dataSelection').on('change', function() {
 $(document).on('change', '#categorySelection', function(){
     event.preventDefault();
 	displayCategory();
-	
+	setGradient();
 });
 
 $(document).on('change', '#rankSelection', function(){
     event.preventDefault();
 	displayRanks();
-	
+	setGradient();
 });
 
 $(document).on('change', '#pubDateSelection', function(){
     event.preventDefault();
 	displayPubDates();
-	
+	setGradient();
 });
 
 $(document).on('change', '#consoleSelection', function(){
     event.preventDefault();
 	displayConsole();
-	
+	setGradient();
 });
 
 //#endregion
@@ -109,27 +109,27 @@ function displayData() {
 		case 'all':
 			allGames();
 			$('.allGames').show();
-			
+			setGradient();
 			break;
 		case 'category':
 			categorySetup();	
 			$('.categoryBox').show();
-			
+			setGradient();
 			break;
 		case 'rankedBtn':
 			rankSetup();
 			$('.rankBox').show();
-			
+			setGradient();
 			break;
 		case 'pubDate':
 			pubDateSetup();
 			$('.pubBox').show();
-			
+			setGradient();
 			break;
 		case 'console':
 			consoleSetup();	
 			$('.consoleBox').show();
-			
+			setGradient();
 			break;
 	}
 }
@@ -146,8 +146,10 @@ function allGames() {
 
 	// Appends the next game (in HTML) and adds to the count and pages of the variables
 	for (let game in gameData) {
+		let orderRanking = allGamesOrderedRankings.indexOf(gameData[game].title) + 1;
 		allGames += `<div class="game"><div class="title">${gameData[game].title}</div><div class="year">${gameData[game]
-			.yearReleased}</div><div class="rating">Rating: ${gameData[game].myRating}/10</div><div class="gameConsole">${gameData[game].gameConsole}</div></div>`;
+			.yearReleased}</div><div class="rating">Rating: ${gameData[game].myRating}/10</div><div class="gameConsole">${gameData[game].gameConsole}</div>
+			<div class="rating">${orderRanking}</div></div>`;
 		gamesForAll += 1;
 		gameData[game].id = game;
 	}
@@ -345,13 +347,26 @@ function displayRanks() {
 	let gameCount = 0;
 	let gameWord = 'games';
 
+	let gameArr = JSON.parse(JSON.stringify(gameData));
+	
+	for(let game in gameArr){
+		if(gameArr[game].myRating != undefined){
+			gameArr[game].orderRanking = allGamesOrderedRankings.indexOf(gameArr[game].title) + 1;
+		}
+	}
+	
+	gameArr.sort(function(a, b) {
+		return a.orderRanking - b.orderRanking;
+	});	
 
-	for (let game in gameData) {
-		if (gameData[game].myRating == undefined) {
+
+	for (let game in gameArr) {
+		if (gameArr[game].myRating == undefined) {
 		} else {
-				if (gameData[game].myRating == rankChoice) {	
-					rankGameList += `<div class="game"><div class="title">${gameData[game].title}</div><div class="year">${gameData[game]
-                        .yearReleased}</div><div class="rating">Rating: ${gameData[game].myRating}/10</div><div class="gameConsole">${gameData[game].gameConsole}</div></div>`;
+				if (gameArr[game].myRating == rankChoice) {	
+					rankGameList += `<div class="game"><div class="title">${gameArr[game].title}</div><div class="year">${gameArr[game]
+                        .yearReleased}</div><div class="rating">Rating: ${gameArr[game].myRating}/10</div><div class="gameConsole">${gameArr[game].gameConsole}</div>
+						<div class="rating">Ranking: ${gameArr[game].orderRanking}</div></div>`;
 					gameCount++;
 
 				}
