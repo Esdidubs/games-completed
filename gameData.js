@@ -487,7 +487,14 @@ let gameData = [
         myRating: 6, 
         gameConsole: ['xb1'], 
         keywords: ['singleplayer', 'puzzle', 'platformer'] 
-    }, 
+    },  
+    {
+        title: "Idle Acorns", 
+        yearReleased: 2021, 
+        myRating: 6, 
+        gameConsole: ['ios'], 
+        keywords: ['singleplayer', 'idle', 'clicker'] 
+    },
     {
         title: "Inside", 
         yearReleased: 2016, 
@@ -1783,6 +1790,7 @@ let allGamesOrderedRankings = [
     "The Room Two",
     "Halo 3: ODST",
     "Wolfenstein",
+    "Idle Acorns",
     "Hue",
     "Organ Trail",
     "Guacamelee!: Super Turbo Championship Edition",
