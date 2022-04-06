@@ -1306,7 +1306,14 @@ let gameData = [
         myRating: 7, 
         gameConsole: ['xb1'], 
         keywords: ['singleplayer', 'adventure', 'interactive-film'] 
-    }, 
+    },
+    {
+        title: "Teenage Mutant Ninja Turtles", 
+        yearReleased: 1989, 
+        myRating: 5, 
+        gameConsole: ['arcade'], 
+        keywords: ['singleplayer', 'co-op', 'beat-em-up'] 
+    },  
     {
         title: "Teenage Mutant Ninja Turtles: Turtles in Time", 
         yearReleased: 1991, 
@@ -1837,6 +1844,7 @@ let allGamesOrderedRankings = [
     "Yu-Gi-Oh! Dark Duel Stories",
     "Teenage Mutant Ninja Turtles: Turtles in Time",
     "The Simpsons",
+    "Teenage Mutant Ninja Turtles",
     "Twisted Metal 2",
     "Yu-Gi-Oh! The Falsebound Kingdom",
     "The Plan",
