@@ -678,6 +678,13 @@ let gameData = [
         keywords: ['singleplayer', 'puzzle'] 
     }, 
     {
+        title: "Modern Tales: Age of Invention", 
+        yearReleased: 2017, 
+        myRating: 7, 
+        gameConsole: ['xsx'], 
+        keywords: ['singleplayer', 'puzzle'] 
+    }, 
+    {
         title: "Monument Valley", 
         yearReleased: 2014, 
         myRating: 7, 
@@ -795,6 +802,13 @@ let gameData = [
         myRating: 6, 
         gameConsole: ['gen'], 
         keywords: ['singleplayer', 'multiplayer', 'action'] 
+    },  
+    {
+        title: "PAW Patrol: On a Roll", 
+        yearReleased: 2018, 
+        myRating: 5, 
+        gameConsole: ['xsx'], 
+        keywords: ['singleplayer', 'platformer', 'action'] 
     }, 
     {
         title: "Peggle", 
@@ -1763,6 +1777,7 @@ let allGamesOrderedRankings = [
     "GoldenEye: Rogue Agent",
     "Golf Peaks",
     "Flower",
+    "Modern Tales: Age of Invention",
     "Max: The Curse of Brotherhood",
     "Snipperclips Plus",
     "Tetris Effect: Connected",
@@ -1837,6 +1852,7 @@ let allGamesOrderedRankings = [
     "Yu-Gi-Oh!: Forbidden Memories",
     "Resistance: Fall of Man",
     "Freddi Fish 3: The Case of the Stolen Conch Shell",
+    "PAW Patrol: On a Roll",
     "A Dinosaur's Tale",
     "Frogger Returns",
     "Homefront",
