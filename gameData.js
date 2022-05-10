@@ -32,7 +32,14 @@ let gameData = [
         myRating: 5, 
         gameConsole: ['gen'], 
         keywords: ['singleplayer', 'platformer', 'side-scroller'] 
-    }, 
+    },
+    {
+        title: "A Memoir Blue", 
+        yearReleased: 2022, 
+        myRating: 6, 
+        gameConsole: ['xsx'], 
+        keywords: ['singleplayer', 'adventure', 'casual'] 
+    },  
     {
         title: "A Short Hike", 
         yearReleased: 2019, 
@@ -233,7 +240,7 @@ let gameData = [
         title: "Dear Esther", 
         yearReleased: 2012, 
         myRating: 6, 
-        gameConsole: ['pc'], 
+        gameConsole: ['pc', 'xsx'], 
         keywords: ['singleplayer', 'walking-simulator', 'adventure'] 
     }, 
     {
@@ -1822,6 +1829,7 @@ let allGamesOrderedRankings = [
     "Game Dev Tycoon",
     "Castlevania: Dawn of Sorrow",
     "The Park",
+    "A Memoir Blue",
     "Voodoo Vince: Remastered",
     "Superhot: Mind Control Delete",
     "Paperboy",
