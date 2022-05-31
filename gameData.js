@@ -811,8 +811,8 @@ let gameData = [
         keywords: ['singleplayer', 'multiplayer', 'action'] 
     },  
     {
-        title: "PAW Patrol: On a Roll", 
-        yearReleased: 2018, 
+        title: "PAW Patrol Mighty Pups Save Adventure Bay", 
+        yearReleased: 2020, 
         myRating: 5, 
         gameConsole: ['xsx'], 
         keywords: ['singleplayer', 'platformer', 'action'] 
@@ -1860,7 +1860,7 @@ let allGamesOrderedRankings = [
     "Yu-Gi-Oh!: Forbidden Memories",
     "Resistance: Fall of Man",
     "Freddi Fish 3: The Case of the Stolen Conch Shell",
-    "PAW Patrol: On a Roll",
+    "PAW Patrol Mighty Pups Save Adventure Bay",
     "A Dinosaur's Tale",
     "Frogger Returns",
     "Homefront",
