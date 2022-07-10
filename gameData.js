@@ -1427,6 +1427,13 @@ let gameData = [
         keywords: ['singleplayer', 'co-op', 'beat-em-up'] 
     }, 
     {
+        title: "The Stanley Parable: Ultra Deluxe", 
+        yearReleased: 2022, 
+        myRating: 9, 
+        gameConsole: ['xsx'], 
+        keywords: ['singleplayer', 'adventure', 'casual'] 
+    }, 
+    {
         title: "The Touryst", 
         yearReleased: 2019, 
         myRating: 7, 
@@ -1677,6 +1684,7 @@ let allGamesOrderedRankings = [
     "Golf Story",
     "Thomas Was Alone",
     "Firewatch",
+    "The Stanley Parable: Ultra Deluxe",
     "A Short Hike",
     "Yu-Gi-Oh!: The Duelists of the Roses",
     "Assassin's Creed Odyssey",
