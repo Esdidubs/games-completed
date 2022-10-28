@@ -50,8 +50,22 @@ header {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	border: 2px solid black;
+	border: solid black;
+
+	
 }
+
+.consoleTitle:nth-child(odd) {  
+	border-width: 3px 3px 5px 5px;
+	border-radius:4% 95% 6% 95%/95% 4% 92% 5%;
+}
+
+.consoleTitle:nth-child(even) {  
+	border-width: 3px 4px 3px 5px;
+	border-radius:95% 4% 92% 5%/4% 95% 6% 95%;
+}
+
+
 
 .gameList {
 	display: grid;	
@@ -71,7 +85,11 @@ header {
 	box-shadow: 1px 1px 2px #fff inset,
 				-1px -1px 2px #fff inset;
 	border-radius: 3px/6px;   
+
+	
 }
+
+
 
 .categoryGames,
 .consoleGames,
