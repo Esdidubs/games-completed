@@ -1,8 +1,3 @@
-/*
-	Things to add:
-*/
-
-
 /*===========================
 	SETUP
 ===========================*/
@@ -65,12 +60,6 @@ $('#dataSelection').on('change', function() {
 	displayData();
 });
 
-$(document).on('change', '#consoleSelection', function(){
-    event.preventDefault();
-	displayConsole();
-	setGradient();
-});
-
 //#endregion
 
 //#region Hide/Show
@@ -126,7 +115,6 @@ function allGames(sortingNum) {
 		});	
 	}
 
-	// Appends the next game (in HTML) and adds to the count and pages of the variables
 	for (let game in gameArr) {
 		allGames += `<div class="game"><div class="title">${gameArr[game].title}</div><div class="year">${gameArr[game]
 			.yearReleased}</div><div class="rating">Rating: ${gameArr[game].myRating}/10</div><div class="gameConsole">${gameArr[game].gameConsole}</div></div>`;
@@ -165,16 +153,19 @@ function consoleSetup() {
 function printConsoles(gameConsoleArr) {
 
 	let consoleGameList = ``;
+	let gameCounts = {};
 
 	for(let gameConsole in gameConsoleArr){
-		consoleGameList += `<div class="consoleTitle">${gameConsoleArr[gameConsole]}</div>`
+		consoleGameList += `<div class="consoleTitle" id="${gameConsoleArr[gameConsole]}">${gameConsoleArr[gameConsole]}<span class="countNum"></span></div>`
 		for (let game in gameData) {
 			if (gameData[game].gameConsole == undefined) {
 			} else {
 					if (gameData[game].gameConsole.includes(gameConsoleArr[gameConsole]) == true) {	
 						consoleGameList += `<div class="game"><div class="title">${gameData[game].title}</div><div class="year">${gameData[game]
 							.yearReleased}</div><div class="rating">Rating: ${gameData[game].myRating}/10</div><div class="gameConsole">${gameData[game].gameConsole}</div></div>`;
+							gameCounts[gameConsoleArr[gameConsole]] = (gameCounts[gameConsoleArr[gameConsole]] + 1) || 1;
 					}
+					
 				}
 		}
 	}
@@ -184,5 +175,11 @@ function printConsoles(gameConsoleArr) {
 				<div class="gameList">${consoleGameList}</div>
 			</div>
     `);
+
+	for(let gameConsole in gameConsoleArr){
+		$(`#${gameConsoleArr[gameConsole]}`).html(`
+			${gameConsoleArr[gameConsole]}<span class="countNum">${gameCounts[gameConsoleArr[gameConsole]]}</span>
+		`);
+	}
 }
 //#endregion
