@@ -6,6 +6,7 @@
 	--gc: rgb(124, 23, 191);
 	--gen: rgba(23,86,155,1.0);
 	--ios: rgba(238,238,238,1.0);
+	--mq: rgba(241, 169, 173,1.0);
 	--n64: rgba(75,82,88,1.0);
 	--nes: rgba(193,18,28,1.0);
 	--ns: rgba(0,195,227,1.0);
@@ -40,6 +41,15 @@ header {
 	font-size: 24px;
 	padding: 10px;
 	text-align: center;	
+}
+
+.consoleTitle{
+	font-size: 24px;
+	text-transform: uppercase;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 2px solid black;
 }
 
 .gameList {

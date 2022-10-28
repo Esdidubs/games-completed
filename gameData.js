@@ -9,1884 +9,1417 @@ let gameData = [
         title: ".detuned", 
         yearReleased: 2009, 
         myRating: 3, 
-        gameConsole: ['ps3'], 
-        keywords: ['experimental', 'art', 'singleplayer'] 
+        gameConsole: ['ps3']
     }, 
     {
         title: "#IDARB", 
         yearReleased: 2015, 
         myRating: 5, 
-        gameConsole: ['xb1'], 
-        keywords: ['singleplayer', 'multiplayer', 'party', 'sports'] 
+        gameConsole: ['xb1']
     }, 
     {
         title: "10 Second Ninja X", 
         yearReleased: 2016, 
         myRating: 6, 
-        gameConsole: ['xb1'], 
-        keywords: ['singleplayer', 'platformer', 'fast-paced', 'side-scroller'] 
+        gameConsole: ['xb1']
     }, 
     {
         title: "A Dinosaur's Tale", 
         yearReleased: 1994, 
         myRating: 5, 
-        gameConsole: ['gen'], 
-        keywords: ['singleplayer', 'platformer', 'side-scroller'] 
+        gameConsole: ['gen']
     },
     {
         title: "A Memoir Blue", 
         yearReleased: 2022, 
         myRating: 6, 
-        gameConsole: ['xsx'], 
-        keywords: ['singleplayer', 'adventure', 'casual'] 
+        gameConsole: ['xsx']
     },  
     {
         title: "A Short Hike", 
         yearReleased: 2019, 
         myRating: 9, 
-        gameConsole: ['xsx'], 
-        keywords: ['singleplayer', 'adventure', 'casual'] 
+        gameConsole: ['xsx'] 
     }, 
     {
         title: "ABZU", 
         yearReleased: 2016, 
         myRating: 6, 
-        gameConsole: ['ps4'], 
-        keywords: ['singleplayer', 'underwater', 'adventure', 'simulation'] 
+        gameConsole: ['ps4'] 
     }, 
     {
         title: "Afrika", 
         yearReleased: 2008, 
         myRating: 8, 
-        gameConsole: ['ps3'], 
-        keywords: ['singleplayer', 'photography', 'simulation', 'adventure'] 
+        gameConsole: ['ps3'] 
     }, 
     {
         title: "Altered Beast", 
         yearReleased: 1988, 
         myRating: 4, 
-        gameConsole: ['gen'], 
-        keywords: ['beat-em-up', 'singleplayer', 'side-scroller', 'co-op', 'multiplayer'] 
+        gameConsole: ['gen'] 
     }, 
     {
         title: "Alto's Adventure", 
         yearReleased: 2015, 
         myRating: 8, 
-        gameConsole: ['ios'], 
-        keywords: ['singleplayer', 'runner', 'sports'] 
+        gameConsole: ['ios'] 
     }, 
     {
         title: "Animal Crossing New Horizons", 
         yearReleased: 2020, 
         myRating: 7, 
-        gameConsole: ['ns'], 
-        keywords: ['singleplayer', 'multiplayer', 'farming', 'simulation', 'collecting'] 
+        gameConsole: ['ns'] 
     }, 
     {
         title: "Assassin's Creed Odyssey", 
         yearReleased: 2012, 
         myRating: 9, 
-        gameConsole: ['xb1'], 
-        keywords: ['singleplayer', 'rpg', 'action-adventure', 'stealth', 'educational'] 
+        gameConsole: ['xb1'] 
     }, 
     {
         title: "Assassin's Creed Origins", 
         yearReleased: 2009, 
         myRating: 8, 
-        gameConsole: ['xb1'], 
-        keywords: ['singleplayer', 'rpg', 'action-adventure', 'stealth', 'educational'] 
+        gameConsole: ['xb1'] 
     }, 
     {
         title: "Backyard Baseball", 
         yearReleased: 1997, 
         myRating: 8, 
-        gameConsole: ['gbasp'], 
-        keywords: ['singleplayer', 'multiplayer', 'sports', 'simulation'] 
+        gameConsole: ['gbasp'] 
     }, 
     {
         title: "Backyard Football", 
         yearReleased: 1999, 
         myRating: 7, 
-        gameConsole: ['gbasp'], 
-        keywords: ['singleplayer', 'multiplayer', 'sports', 'simulation'] 
+        gameConsole: ['gbasp'] 
     }, 
     {
         title: "Banjo-Kazooie", 
         yearReleased: 1998, 
         myRating: 7, 
-        gameConsole: ['xb1'], 
-        keywords: ['singleplayer', 'platformer', 'action-adventure'] 
+        gameConsole: ['xb1'] 
     }, 
     {
         title: "Banjo-Tooie", 
         yearReleased: 2000, 
         myRating: 7, 
-        gameConsole: ['xb1'], 
-        keywords: ['singleplayer', 'platformer', 'action-adventure'] 
+        gameConsole: ['xb1'] 
     }, 
     {
         title: "Battleblock Theater", 
         yearReleased: 2013, 
         myRating: 6, 
-        gameConsole: ['pc'], 
-        keywords: ['singleplayer', 'multiplayer', 'co-op', 'platformer', 'party'] 
+        gameConsole: ['pc'] 
     }, 
     {
         title: "Borderlands", 
         yearReleased: 2009, 
         myRating: 7, 
-        gameConsole: ['x360'], 
-        keywords: ['singleplayer', 'multiplayer', 'co-op', 'fps', 'rpg'] 
+        gameConsole: ['x360'] 
     }, 
     {
         title: "Braid", 
         yearReleased: 2008, 
         myRating: 6, 
-        gameConsole: ['pc', 'x360'], 
-        keywords: ['singleplayer', 'puzzle', 'platformer'] 
+        gameConsole: ['pc', 'x360'] 
     }, 
     {
         title: "Brothers: A Tale of Two Sons", 
         yearReleased: 2013, 
         myRating: 9, 
-        gameConsole: ['xb1'], 
-        keywords: ['singleplayer', 'co-op', 'adventure'] 
+        gameConsole: ['xb1'] 
     }, 
     {
         title: "Calculator: The Game", 
         yearReleased: 2017, 
         myRating: 7, 
-        gameConsole: ['ios'], 
-        keywords: ['singleplayer', 'puzzle'] 
+        gameConsole: ['ios'] 
     }, 
     {
         title: "Call of Duty: Black Ops", 
         yearReleased: 2010, 
         myRating: 7, 
-        gameConsole: ['x360'], 
-        keywords: ['singleplayer', 'multiplayer', 'co-op', 'fps'] 
+        gameConsole: ['x360'] 
     }, 
     {
         title: "Call of Duty: Modern Warfare 2", 
         yearReleased: 2009, 
         myRating: 7, 
-        gameConsole: ['ps3'], 
-        keywords: ['singleplayer', 'multiplayer', 'co-op', 'fps'] 
+        gameConsole: ['ps3'] 
     }, 
     {
         title: "Call of the Sea", 
         yearReleased: 2020, 
         myRating: 9, 
-        gameConsole: ['xb1'], 
-        keywords: ['singleplayer', 'adventure', 'puzzle'] 
+        gameConsole: ['xb1'] 
     }, 
     {
         title: "Card City Nights", 
         yearReleased: 2014, 
         myRating: 7, 
-        gameConsole: ['pc'], 
-        keywords: ['singleplayer', 'card-game'] 
+        gameConsole: ['pc'] 
     }, 
     {
         title: "Castlevania: Dawn of Sorrow", 
         yearReleased: 2005, 
         myRating: 6, 
-        gameConsole: ['ds'], 
-        keywords: ['singleplayer', 'platformer', 'metroidvania', 'action', 'multiplayer'] 
+        gameConsole: ['ds'] 
     }, 
     {
         title: "Condemned: Criminal Origins", 
         yearReleased: 2005, 
         myRating: 6, 
-        gameConsole: ['x360'], 
-        keywords: ['singleplayer', 'survival-horror'] 
+        gameConsole: ['x360'] 
     }, 
     {
         title: "CTR: Crash Team Racing", 
         yearReleased: 1999, 
         myRating: 6, 
-        gameConsole: ['ps1'], 
-        keywords: ['singleplayer', 'multiplayer', 'racing'] 
+        gameConsole: ['ps1'] 
     }, 
     {
         title: "Dance Dance Revolution Mario Mix", 
         yearReleased: 2005, 
         myRating: 8, 
-        gameConsole: ['gc'], 
-        keywords: ['singleplayer', 'multiplayer', 'music', 'exercise'] 
+        gameConsole: ['gc'] 
     }, 
     {
         title: "Day of the Tentacle Remastered", 
         yearReleased: 1993, 
         myRating: 8, 
-        gameConsole: ['ps4', 'xb1'], 
-        keywords: ['singleplayer', 'point-and-click', 'puzzle', 'adventure'] 
+        gameConsole: ['ps4', 'xb1'] 
     }, 
     {
         title: "Dead Space", 
         yearReleased: 2008, 
         myRating: 8, 
-        gameConsole: ['ps3'], 
-        keywords: ['singleplayer', 'survival-horror', 'third-person-shooter'] 
+        gameConsole: ['ps3'] 
     },  
     {
         title: "Deadstorm Pirates 4D", 
         yearReleased: 2010, 
         myRating: 6, 
-        gameConsole: ['arcade'], 
-        keywords: ['singleplayer', 'co-op', 'rail-shooter'] 
+        gameConsole: ['arcade'] 
     }, 
     {
         title: "Dear Esther", 
         yearReleased: 2012, 
         myRating: 6, 
-        gameConsole: ['pc', 'xsx'], 
-        keywords: ['singleplayer', 'walking-simulator', 'adventure'] 
+        gameConsole: ['pc', 'xsx'] 
     }, 
     {
         title: "Donut Country", 
         yearReleased: 2018, 
         myRating: 7, 
-        gameConsole: ['xb1'], 
-        keywords: ['singleplayer', 'puzzle', 'adventure'] 
+        gameConsole: ['xb1'] 
     }, 
     {
         title: "Elite Beat Agents", 
         yearReleased: 2006, 
         myRating: 7, 
-        gameConsole: ['ds'], 
-        keywords: ['singleplayer', 'music', 'multiplayer'] 
+        gameConsole: ['ds'] 
     }, 
     {
         title: "Fable", 
         yearReleased: 2004, 
         myRating: 7, 
-        gameConsole: ['xbox'], 
-        keywords: ['singleplayer', 'action', 'rpg'] 
+        gameConsole: ['xbox'] 
     }, 
     {
         title: "Fez", 
         yearReleased: 2012, 
         myRating: 7, 
-        gameConsole: ['pc'], 
-        keywords: ['singleplayer', 'platformer', 'puzzle'] 
+        gameConsole: ['pc'] 
     }, 
     {
         title: "Fire Emblem", 
         yearReleased: 2003, 
         myRating: 7, 
-        gameConsole: ['gbasp'], 
-        keywords: ['singleplayer', 'tactical-rpg', 'multiplayer'] 
+        gameConsole: ['gbasp'] 
     }, 
     {
         title: "Firewatch", 
         yearReleased: 2016, 
         myRating: 9, 
-        gameConsole: ['xb1'], 
-        keywords: ['singleplayer', 'adventure'] 
+        gameConsole: ['xb1'] 
     }, 
     {
         title: "Flower", 
         yearReleased: 2009, 
         myRating: 7, 
-        gameConsole: ['ps3'], 
-        keywords: ['singleplayer', 'adventure', 'art'] 
+        gameConsole: ['ps3'] 
     },  
     {
         title: "Forza Horizon 5", 
         yearReleased: 2021, 
         myRating: 9, 
-        gameConsole: ['xsx'], 
-        keywords: ['singleplayer', 'multiplayer', 'racing', 'simulation', 'adventure', 'action'] 
+        gameConsole: ['xsx'] 
     }, 
     {
         title: "Fractured Minds", 
         yearReleased: 2017, 
         myRating: 4, 
-        gameConsole: ['xb1'], 
-        keywords: ['singleplayer', 'art'] 
+        gameConsole: ['xb1'] 
     }, 
     {
         title: "Freddi Fish 3: The Case of the Stolen Conch Shell", 
         yearReleased: 1998, 
         myRating: 5, 
-        gameConsole: ['pc'], 
-        keywords: ['singleplayer', 'point-and-click', 'puzzle', 'adventure'] 
+        gameConsole: ['pc'] 
     }, 
     {
         title: "Frogger Returns", 
         yearReleased: 2009, 
         myRating: 5, 
-        gameConsole: ['ps3'], 
-        keywords: ['singleplayer', 'multiplayer', 'action'] 
+        gameConsole: ['ps3'] 
     }, 
     {
         title: "Game Dev Tycoon", 
         yearReleased: 2012, 
         myRating: 6, 
-        gameConsole: ['pc'], 
-        keywords: ['singleplayer', 'simulation', 'strategy'] 
+        gameConsole: ['pc'] 
     }, 
     {
         title: "Gears of War", 
         yearReleased: 2006, 
         myRating: 8, 
-        gameConsole: ['x360', 'xb1'], 
-        keywords: ['singleplayer', 'multiplayer', 'co-op', 'third-person-shooter'] 
+        gameConsole: ['x360', 'xb1'] 
     }, 
     {
         title: "GoldenEye 007", 
         yearReleased: 1997, 
         myRating: 6, 
-        gameConsole: ['n64'], 
-        keywords: ['singleplayer', 'multiplayer', 'fps', 'stealth'] 
+        gameConsole: ['n64'] 
     }, 
     {
         title: "GoldenEye: Rogue Agent", 
         yearReleased: 2004, 
         myRating: 7, 
-        gameConsole: ['gc'], 
-        keywords: ['singleplayer', 'multiplayer', 'fps'] 
+        gameConsole: ['gc'] 
     }, 
     {
         title: "Golf Peaks", 
         yearReleased: 2018, 
         myRating: 7, 
-        gameConsole: ['ios'], 
-        keywords: ['singleplayer', 'sports', 'puzzle'] 
+        gameConsole: ['ios'] 
     }, 
     {
         title: "Golf Story", 
         yearReleased: 2017, 
         myRating: 9, 
-        gameConsole: ['ns'], 
-        keywords: ['singleplayer', 'multiplayer', 'sports', 'adventure', 'rpg'] 
+        gameConsole: ['ns'] 
     }, 
     {
         title: "Gone Home", 
         yearReleased: 2013, 
         myRating: 8, 
-        gameConsole: ['xb1', 'pc'], 
-        keywords: ['singleplayer', 'exploration', 'adventure'] 
+        gameConsole: ['xb1', 'pc'] 
     }, 
     {
         title: "Guacamelee!: Super Turbo Championship Edition", 
         yearReleased: 2013, 
         myRating: 6, 
-        gameConsole: ['xb1'], 
-        keywords: ['singleplayer', 'co-op', 'metroidvania', 'platformer', 'beat-em-up'] 
+        gameConsole: ['xb1'] 
     }, 
     {
         title: "Guitar Hero III: Legends of Rock", 
         yearReleased: 2007, 
         myRating: 7, 
-        gameConsole: ['ps3'], 
-        keywords: ['singleplayer', 'multiplayer', 'music'] 
+        gameConsole: ['ps3'] 
     }, 
     {
         title: "Halo 2", 
         yearReleased: 2004, 
         myRating: 9, 
-        gameConsole: ['xbox', 'x360', 'xb1'], 
-        keywords: ['singleplayer', 'multiplayer', 'co-op', 'fps'] 
+        gameConsole: ['xbox', 'x360', 'xb1'] 
     }, 
     {
         title: "Halo 3", 
         yearReleased: 2007, 
         myRating: 9, 
-        gameConsole: ['x360', 'xb1'], 
-        keywords: ['singleplayer', 'multiplayer', 'co-op', 'fps'] 
+        gameConsole: ['x360', 'xb1'] 
     }, 
     {
         title: "Halo 3: ODST", 
         yearReleased: 2009, 
         myRating: 6, 
-        gameConsole: ['x360', 'xb1'], 
-        keywords: ['singleplayer', 'multiplayer', 'co-op', 'fps'] 
+        gameConsole: ['x360', 'xb1'] 
     }, 
     {
         title: "Halo 4", 
         yearReleased: 2012, 
         myRating: 7, 
-        gameConsole: ['xb1'], 
-        keywords: ['singleplayer', 'multiplayer', 'co-op', 'fps'] 
+        gameConsole: ['xb1'] 
     }, 
     {
         title: "Halo: Combat Evolved", 
         yearReleased: 2001, 
         myRating: 7, 
-        gameConsole: ['xbox', 'x360'], 
-        keywords: ['singleplayer', 'multiplayer', 'co-op', 'fps'] 
+        gameConsole: ['xbox', 'x360'] 
     }, 
     {
         title: "Halo: Combat Evolved Anniversary", 
         yearReleased: 2011, 
         myRating: 7, 
-        gameConsole: ['xb1'], 
-        keywords: ['singleplayer', 'multiplayer', 'co-op', 'fps'] 
+        gameConsole: ['xb1'] 
     }, 
     {
         title: "Halo: Reach", 
         yearReleased: 2010, 
         myRating: 6, 
-        gameConsole: ['x360'], 
-        keywords: ['singleplayer', 'multiplayer', 'co-op', 'fps'] 
+        gameConsole: ['x360'] 
     }, 
     {
         title: "Harry Potter and the Prisoner of Azkaban GBA", 
         yearReleased: 2004, 
         myRating: 8, 
-        gameConsole: ['gbasp'], 
-        keywords: ['singleplayer', 'rpg'] 
+        gameConsole: ['gbasp'] 
     }, 
     {
         title: "Harry Potter and the Prisoner of Azkaban", 
         yearReleased: 2004, 
         myRating: 8, 
-        gameConsole: ['gc'], 
-        keywords: ['singleplayer', 'action-adventure'] 
+        gameConsole: ['gc'] 
     }, 
     {
         title: "Harry Potter and the Sorcerer's Stone", 
         yearReleased: 2001, 
         myRating: 7, 
-        gameConsole: ['ps1'], 
-        keywords: ['singleplayer', 'action-adventure'] 
+        gameConsole: ['ps1'] 
     }, 
     {
         title: "Her Story", 
         yearReleased: 2015, 
         myRating: 6, 
-        gameConsole: ['pc'], 
-        keywords: ['singleplayer', 'interactive-film', 'simulation', 'puzzle'] 
+        gameConsole: ['pc'] 
     }, 
     {
         title: "Hidden Through Time", 
         yearReleased: 2020, 
         myRating: 6, 
-        gameConsole: ['xb1'], 
-        keywords: ['singleplayer', 'puzzle'] 
+        gameConsole: ['xb1'] 
     }, 
     {
         title: "Home", 
         yearReleased: 2012, 
         myRating: 7, 
-        gameConsole: ['pc'], 
-        keywords: ['singleplayer', 'adventure', 'horror'] 
+        gameConsole: ['pc'] 
     }, 
     {
         title: "Homefront", 
         yearReleased: 2011, 
         myRating: 5, 
-        gameConsole: ['ps3'], 
-        keywords: ['singleplayer', 'multiplayer', 'fps'] 
+        gameConsole: ['ps3'] 
     }, 
     {
         title: "Hook", 
         yearReleased: 2015, 
         myRating: 7, 
-        gameConsole: ['pc'], 
-        keywords: ['singleplayer', 'puzzle'] 
+        gameConsole: ['pc'] 
     }, 
     {
         title: "Hue", 
         yearReleased: 2016, 
         myRating: 6, 
-        gameConsole: ['xb1'], 
-        keywords: ['singleplayer', 'puzzle', 'platformer'] 
+        gameConsole: ['xb1'] 
     },  
     {
         title: "Idle Acorns", 
         yearReleased: 2021, 
         myRating: 6, 
-        gameConsole: ['ios'], 
-        keywords: ['singleplayer', 'idle', 'clicker'] 
+        gameConsole: ['ios'] 
     },
     {
         title: "Inside", 
         yearReleased: 2016, 
         myRating: 10, 
-        gameConsole: ['pc', 'xb1'], 
-        keywords: ['singleplayer', 'puzzle', 'platformer', 'adventure'] 
+        gameConsole: ['pc', 'xb1'] 
     }, 
     {
         title: "It Takes Two", 
         yearReleased: 2021, 
         myRating: 10, 
-        gameConsole: ['xsx'], 
-        keywords: ['co-op', 'multiplayer', 'action-adventure', 'puzzle'] 
+        gameConsole: ['xsx'] 
     }, 
     {
         title: "Jetpack Joyride", 
         yearReleased: 2011, 
         myRating: 7, 
-        gameConsole: ['ps3'], 
-        keywords: ['singleplayer', 'runner'] 
+        gameConsole: ['ps3'] 
     }, 
     {
         title: "Just Dance 2020", 
         yearReleased: 2019, 
         myRating: 8, 
-        gameConsole: ['ns'], 
-        keywords: ['singleplayer', 'multiplayer', 'co-op', 'music', 'exercise'] 
+        gameConsole: ['ns'] 
     }, 
     {
         title: "Kirby's Pinball Land", 
         yearReleased: 1993, 
         myRating: 7, 
-        gameConsole: ['gbasp'], 
-        keywords: ['singleplayer', 'pinball'] 
+        gameConsole: ['gbasp'] 
     }, 
     {
         title: "Kitty Letter", 
         yearReleased: 2021, 
         myRating: 7, 
-        gameConsole: ['ios'], 
-        keywords: ['singleplayer', 'multiplayer', 'words'] 
+        gameConsole: ['ios'] 
     }, 
     {
         title: "Late Shift", 
         yearReleased: 2016, 
         myRating: 6, 
-        gameConsole: ['xb1'], 
-        keywords: ['singleplayer', 'interactive-film', 'adventure'] 
+        gameConsole: ['xb1'] 
     }, 
     {
         title: "Left 4 Dead", 
         yearReleased: 2008, 
         myRating: 8, 
-        gameConsole: ['x360', 'pc'], 
-        keywords: ['singleplayer', 'multiplayer', 'co-op', 'fps', 'survival-horror'] 
+        gameConsole: ['x360', 'pc'] 
     }, 
     {
         title: "Left 4 Dead 2", 
         yearReleased: 2009, 
         myRating: 8, 
-        gameConsole: ['pc'], 
-        keywords: ['singleplayer', 'multiplayer', 'co-op', 'fps', 'survival-horror'] 
+        gameConsole: ['pc'] 
     }, 
     {
         title: "LEGO Harry Potter: Years 1-4", 
         yearReleased: 2010, 
         myRating: 8, 
-        gameConsole: ['ps3', 'xsx'], 
-        keywords: ['singleplayer', 'co-op', 'action-adventure'] 
+        gameConsole: ['ps3', 'xsx'] 
     }, 
     {
         title: "LEGO Harry Potter: Years 5-7", 
         yearReleased: 2011, 
         myRating: 8, 
-        gameConsole: ['ps3'], 
-        keywords: ['singleplayer', 'co-op', 'action-adventure'] 
+        gameConsole: ['ps3'] 
     }, 
     {
         title: "Linger in Shadows", 
         yearReleased: 2008, 
         myRating: 4, 
-        gameConsole: ['ps3'], 
-        keywords: ['singleplayer', 'art'] 
+        gameConsole: ['ps3'] 
     }, 
     {
         title: "Limbo", 
         yearReleased: 2010, 
         myRating: 10, 
-        gameConsole: ['x360', 'xb1', 'ps4', 'pc'], 
-        keywords: ['singleplayer', 'puzzle', 'platformer', 'adventure'] 
+        gameConsole: ['x360', 'xb1', 'ps4', 'pc'] 
     }, 
     {
         title: "Little Inferno", 
         yearReleased: 2012, 
         myRating: 9, 
-        gameConsole: ['pc'], 
-        keywords: ['singleplayer', 'puzzle'] 
+        gameConsole: ['pc'] 
     }, 
     {
         title: "LittleBigPlanet", 
         yearReleased: 2008, 
         myRating: 8, 
-        gameConsole: ['ps3'], 
-        keywords: ['singleplayer', 'puzzle', 'platformer', 'multiplayer', 'co-op'] 
+        gameConsole: ['ps3'] 
     }, 
     {
         title: "Luigi's Mansion", 
         yearReleased: 2001, 
         myRating: 6, 
-        gameConsole: ['gc'], 
-        keywords: ['singleplayer', 'action-adventure'] 
+        gameConsole: ['gc'] 
     }, 
     {
         title: "Machinarium", 
         yearReleased: 2009, 
         myRating: 6, 
-        gameConsole: ['ps3'], 
-        keywords: ['singleplayer', 'point-and-click', 'puzzle', 'adventure'] 
+        gameConsole: ['ps3'] 
     }, 
     {
         title: "Manhunt", 
         yearReleased: 2003, 
         myRating: 6, 
-        gameConsole: ['ps2'], 
-        keywords: ['singleplayer', 'stealth', 'survival-horror'] 
+        gameConsole: ['ps2'] 
     }, 
     {
         title: "Mario Kart 64", 
         yearReleased: 1996, 
         myRating: 8, 
-        gameConsole: ['n64', 'wii'], 
-        keywords: ['singleplayer', 'multiplayer', 'party', 'racing'] 
+        gameConsole: ['n64', 'wii'] 
     }, 
     {
         title: "Mario Kart 8", 
         yearReleased: 2014, 
         myRating: 10, 
-        gameConsole: ['wiiu', 'ns'], 
-        keywords: ['singleplayer', 'multiplayer', 'party', 'racing'] 
+        gameConsole: ['wiiu', 'ns'] 
     }, 
     {
         title: "Mario Kart DS", 
         yearReleased: 2005, 
         myRating: 8, 
-        gameConsole: ['ds'], 
-        keywords: ['singleplayer', 'multiplayer', 'party', 'racing'] 
+        gameConsole: ['ds'] 
     }, 
     {
         title: "Mario Kart Super Circuit", 
         yearReleased: 2001, 
         myRating: 8, 
-        gameConsole: ['ds'], 
-        keywords: ['singleplayer', 'multiplayer', 'party', 'racing'] 
+        gameConsole: ['ds'] 
     }, 
     {
         title: "Mario Kart: Double Dash!!", 
         yearReleased: 2003, 
         myRating: 10, 
-        gameConsole: ['gc'], 
-        keywords: ['singleplayer', 'multiplayer', 'party', 'racing'] 
+        gameConsole: ['gc'] 
     }, 
     {
         title: "Max: The Curse of Brotherhood", 
         yearReleased: 2013, 
         myRating: 7, 
-        gameConsole: ['xb1'], 
-        keywords: ['singleplayer', 'puzzle', 'platformer'] 
+        gameConsole: ['xb1'] 
     }, 
     {
         title: "Minecraft", 
         yearReleased: 2009, 
         myRating: 10, 
-        gameConsole: ['pc', 'xb1'], 
-        keywords: ['singleplayer', 'multiplayer', 'co-op', 'sandbox', 'survival'] 
+        gameConsole: ['pc', 'xb1'] 
     }, 
     {
         title: "Minesweeper Genius", 
         yearReleased: 2019, 
         myRating: 8, 
-        gameConsole: ['xb1'], 
-        keywords: ['singleplayer', 'puzzle'] 
+        gameConsole: ['xb1'] 
     }, 
     {
         title: "Modern Tales: Age of Invention", 
         yearReleased: 2017, 
         myRating: 7, 
-        gameConsole: ['xsx'], 
-        keywords: ['singleplayer', 'puzzle'] 
+        gameConsole: ['xsx'] 
     }, 
     {
         title: "Monument Valley", 
         yearReleased: 2014, 
         myRating: 7, 
-        gameConsole: ['ios'], 
-        keywords: ['singleplayer', 'puzzle'] 
+        gameConsole: ['ios'] 
     }, 
     {
         title: "Mortal Kombat", 
         yearReleased: 1992, 
         myRating: 6, 
-        gameConsole: ['gen'], 
-        keywords: ['singleplayer', 'multiplayer', 'fighting'] 
+        gameConsole: ['gen'] 
     }, 
     {
         title: "Mortal Kombat 4", 
         yearReleased: 1997, 
         myRating: 6, 
-        gameConsole: ['ps1'], 
-        keywords: ['singleplayer', 'multiplayer', 'fighting'] 
+        gameConsole: ['ps1'] 
     }, 
     {
         title: "Mortal Kombat II", 
         yearReleased: 1993, 
         myRating: 6, 
-        gameConsole: ['gen'], 
-        keywords: ['singleplayer', 'multiplayer', 'fighting'] 
+        gameConsole: ['gen'] 
     }, 
     {
         title: "Mortal Kombat vs. DC Universe", 
         yearReleased: 2008, 
         myRating: 6, 
-        gameConsole: ['ps3'], 
-        keywords: ['singleplayer', 'multiplayer', 'fighting'] 
+        gameConsole: ['ps3'] 
     }, 
     {
         title: "Mortal Kombat: Armageddon", 
         yearReleased: 2006, 
         myRating: 6, 
-        gameConsole: ['xbox'], 
-        keywords: ['singleplayer', 'multiplayer', 'fighting', 'adventure'] 
+        gameConsole: ['xbox'] 
     }, 
     {
         title: "Mortal Kombat: Deadly Alliance", 
         yearReleased: 2002, 
         myRating: 6, 
-        gameConsole: ['gc'], 
-        keywords: ['singleplayer', 'multiplayer', 'fighting', 'adventure'] 
+        gameConsole: ['gc'] 
     }, 
     {
         title: "Mortal Kombat: Deception", 
         yearReleased: 2004, 
         myRating: 6, 
-        gameConsole: ['gc'], 
-        keywords: ['singleplayer', 'multiplayer', 'fighting', 'adventure'] 
+        gameConsole: ['gc'] 
     }, 
     {
         title: "Moving Out", 
         yearReleased: 2020, 
         myRating: 8, 
-        gameConsole: ['xb1'], 
-        keywords: ['singleplayer', 'co-op', 'action'] 
+        gameConsole: ['xb1'] 
     }, 
     {
         title: "Need for Speed: Hot Pursuit 2", 
         yearReleased: 2002, 
         myRating: 5, 
-        gameConsole: ['ps2'], 
-        keywords: ['singleplayer', 'multiplayer', 'racing'] 
+        gameConsole: ['ps2'] 
     }, 
     {
         title: "Never Alone", 
         yearReleased: 2014, 
         myRating: 7, 
-        gameConsole: ['xb1'], 
-        keywords: ['singleplayer', 'co-op', 'puzzle', 'platformer'] 
+        gameConsole: ['xb1'] 
     }, 
     {
         title: "New Pokemon Snap", 
         yearReleased: 2021, 
         myRating: 7, 
-        gameConsole: ['ns'], 
-        keywords: ['singleplayer', 'photography'] 
+        gameConsole: ['ns'] 
     }, 
     {
         title: "New Super Mario Bros.", 
         yearReleased: 2006, 
         myRating: 8, 
-        gameConsole: ['ds'], 
-        keywords: ['singleplayer', 'multiplayer', 'platformer'] 
+        gameConsole: ['ds'] 
     }, 
     {
         title: "Organ Trail", 
         yearReleased: 2011, 
         myRating: 6, 
-        gameConsole: ['pc'], 
-        keywords: ['singleplayer', 'simulation', 'survival'] 
+        gameConsole: ['pc'] 
     }, 
     {
         title: "Ori and the Blind Forest", 
         yearReleased: 2015, 
         myRating: 9, 
-        gameConsole: ['xb1'], 
-        keywords: ['singleplayer', 'platformer', 'adventure', 'metroidvania'] 
+        gameConsole: ['xb1'] 
     }, 
     {
         title: "Oxenfree", 
         yearReleased: 2016, 
         myRating: 8, 
-        gameConsole: ['xb1'], 
-        keywords: ['singleplayer', 'adventure'] 
+        gameConsole: ['xb1'] 
     }, 
     {
         title: "Paperboy", 
         yearReleased: 1984, 
         myRating: 6, 
-        gameConsole: ['gen'], 
-        keywords: ['singleplayer', 'multiplayer', 'action'] 
+        gameConsole: ['gen'] 
     },  
     {
         title: "PAW Patrol Mighty Pups Save Adventure Bay", 
         yearReleased: 2020, 
         myRating: 5, 
-        gameConsole: ['xsx'], 
-        keywords: ['singleplayer', 'platformer', 'action'] 
+        gameConsole: ['xsx'] 
     }, 
     {
         title: "Peggle", 
         yearReleased: 2007, 
         myRating: 8, 
-        gameConsole: ['pc', 'xb1'], 
-        keywords: ['singleplayer', 'multiplayer', 'puzzle'] 
+        gameConsole: ['pc', 'xb1'] 
     }, 
     {
         title: "Peggle 2", 
         yearReleased: 2013, 
         myRating: 8, 
-        gameConsole: ['xb1'], 
-        keywords: ['singleplayer', 'multiplayer', 'puzzle'] 
+        gameConsole: ['xb1'] 
     }, 
     {
         title: "Peggle Extreme", 
         yearReleased: 2007, 
         myRating: 8, 
-        gameConsole: ['pc'], 
-        keywords: ['singleplayer', 'puzzle'] 
+        gameConsole: ['pc'] 
     }, 
     {
         title: "Peggle Nights", 
         yearReleased: 2008, 
         myRating: 8, 
-        gameConsole: ['pc'], 
-        keywords: ['singleplayer', 'multiplayer', 'puzzle'] 
+        gameConsole: ['pc'] 
     }, 
     {
         title: "Peggle: World of Warcraft Edition", 
         yearReleased: 2007, 
         myRating: 8, 
-        gameConsole: ['pc'], 
-        keywords: ['singleplayer', 'multiplayer', 'puzzle'] 
+        gameConsole: ['pc'] 
     }, 
     {
         title: "Plants vs. Zombies", 
         yearReleased: 2009, 
         myRating: 7, 
-        gameConsole: ['pc'], 
-        keywords: ['singleplayer', 'tower-defense'] 
+        gameConsole: ['pc'] 
     }, 
     {
         title: "Pokemon Blue Version", 
         yearReleased: 1996, 
         myRating: 7, 
-        gameConsole: ['gbc', 'gbasp', 'ds'], 
-        keywords: ['singleplayer', 'multiplayer', 'rpg'] 
+        gameConsole: ['gbc', 'gbasp', 'ds'] 
     }, 
     {
         title: "Pokemon Crystal Version", 
         yearReleased: 2000, 
         myRating: 7, 
-        gameConsole: ['gbc', 'gbasp'], 
-        keywords: ['singleplayer', 'multiplayer', 'rpg'] 
+        gameConsole: ['gbc', 'gbasp'] 
     }, 
     {
         title: "Pokemon FireRed Version", 
         yearReleased: 2004, 
         myRating: 7, 
-        gameConsole: ['gbasp'], 
-        keywords: ['singleplayer', 'multiplayer', 'rpg'] 
+        gameConsole: ['gbasp'] 
     }, 
     {
         title: "Pokemon Gold Version", 
         yearReleased: 1999, 
         myRating: 7, 
-        gameConsole: ['gbc', 'gbasp'], 
-        keywords: ['singleplayer', 'multiplayer', 'rpg'] 
+        gameConsole: ['gbc', 'gbasp'] 
     }, 
     {
         title: "Pokemon Pinball", 
         yearReleased: 1999, 
         myRating: 6, 
-        gameConsole: ['gbc', 'gbasp'], 
-        keywords: ['singleplayer', 'pinball'] 
+        gameConsole: ['gbc', 'gbasp'] 
     }, 
     {
         title: "Pokemon Quest", 
         yearReleased: 2018, 
         myRating: 6, 
-        gameConsole: ['ns'], 
-        keywords: ['singleplayer', 'action-adventure'] 
+        gameConsole: ['ns'] 
     }, 
     {
         title: "Pokemon Red Version", 
         yearReleased: 1996, 
         myRating: 7, 
-        gameConsole: ['gbc', 'gbasp'], 
-        keywords: ['singleplayer', 'multiplayer', 'rpg'] 
+        gameConsole: ['gbc', 'gbasp'] 
     }, 
     {
         title: "Pokemon Ruby Version", 
         yearReleased: 2002, 
         myRating: 6, 
-        gameConsole: ['gbasp'], 
-        keywords: ['singleplayer', 'multiplayer', 'rpg'] 
+        gameConsole: ['gbasp'] 
     }, 
     {
         title: "Pokemon Silver Version", 
         yearReleased: 1999, 
         myRating: 7, 
-        gameConsole: ['gbc', 'gbasp'], 
-        keywords: ['singleplayer', 'multiplayer', 'rpg'] 
+        gameConsole: ['gbc', 'gbasp'] 
     }, 
     {
         title: "Pokemon Snap", 
         yearReleased: 1999, 
         myRating: 7, 
-        gameConsole: ['wii'], 
-        keywords: ['singleplayer', 'photography'] 
+        gameConsole: ['wii'] 
     }, 
     {
         title: "Pokemon Lets Go Eevee", 
         yearReleased: 2013, 
         myRating: 8, 
-        gameConsole: ['ns'], 
-        keywords: ['singleplayer', 'multiplayer', 'rpg'] 
+        gameConsole: ['ns'] 
     }, 
     {
         title: "Polarity", 
         yearReleased: 2007, 
         myRating: 6, 
-        gameConsole: ['pc'], 
-        keywords: ['singleplayer', 'co-op', 'puzzle', 'platformer'] 
+        gameConsole: ['pc'] 
     }, 
     {
         title: "Portal", 
         yearReleased: 2007, 
         myRating: 10, 
-        gameConsole: ['pc', 'xb1'], 
-        keywords: ['singleplayer', 'puzzle', 'platformer'] 
+        gameConsole: ['pc', 'xb1'] 
     }, 
     {
         title: "Portal 2", 
         yearReleased: 2011, 
         myRating: 10, 
-        gameConsole: ['pc', 'x360', 'xb1'], 
-        keywords: ['singleplayer', 'co-op', 'puzzle', 'platformer'] 
+        gameConsole: ['pc', 'x360', 'xb1'] 
     }, 
     {
         title: "Progress (to 100)", 
         yearReleased: 2015, 
         myRating: 8, 
-        gameConsole: ['ios'], 
-        keywords: ['singleplayer', 'puzzle'] 
+        gameConsole: ['ios'] 
     }, 
     {
         title: "Q.U.B.E. 2", 
         yearReleased: 2018, 
         myRating: 7, 
-        gameConsole: ['xb1'], 
-        keywords: ['singleplayer', 'puzzle', 'platformer'] 
+        gameConsole: ['xb1'] 
     }, 
     {
         title: "Rain On Your Parade", 
         yearReleased: 2021, 
         myRating: 7, 
-        gameConsole: ['xb1'], 
-        keywords: ['singleplayer', 'action', 'puzzle'] 
+        gameConsole: ['xb1'] 
     }, 
     {
         title: "Refunct", 
         yearReleased: 2015, 
         myRating: 9, 
-        gameConsole: ['pc', 'ns', 'xb1'], 
-        keywords: ['singleplayer', 'platformer'] 
+        gameConsole: ['pc', 'ns', 'xb1'] 
     }, 
     {
         title: "Resident Evil", 
         yearReleased: 1996, 
         myRating: 5, 
-        gameConsole: ['ps1'], 
-        keywords: ['singleplayer', 'survival-horror'] 
+        gameConsole: ['ps1'] 
     }, 
     {
         title: "Resident Evil 3", 
         yearReleased: 2020, 
         myRating: 7, 
-        gameConsole: ['xsx'], 
-        keywords: ['singleplayer', 'survival-horror'] 
+        gameConsole: ['xsx'] 
     }, 
     {
         title: "Resident Evil 3: Nemesis", 
         yearReleased: 1999, 
         myRating: 6, 
-        gameConsole: ['ps1'], 
-        keywords: ['singleplayer', 'survival-horror'] 
+        gameConsole: ['ps1'] 
     }, 
     {
         title: "Resident Evil 4", 
         yearReleased: 2005, 
         myRating: 7, 
-        gameConsole: ['gc', 'ps2'], 
-        keywords: ['singleplayer', 'survival-horror'] 
+        gameConsole: ['gc', 'ps2'] 
     }, 
     {
         title: "Resident Evil: Dead Aim", 
         yearReleased: 2003, 
         myRating: 5, 
-        gameConsole: ['ps2'], 
-        keywords: ['singleplayer', 'survival-horror'] 
+        gameConsole: ['ps2'] 
     }, 
     {
         title: "Resident Evil: Deadly Silence", 
         yearReleased: 2006, 
         myRating: 6, 
-        gameConsole: ['ds'], 
-        keywords: ['singleplayer', 'survival-horror'] 
+        gameConsole: ['ds'] 
     }, 
     {
         title: "Resident Evil: The Umbrella Chronicles", 
         yearReleased: 2007, 
         myRating: 5, 
-        gameConsole: ['wii'], 
-        keywords: ['singleplayer', 'multiplayer', 'rail-shooter'] 
+        gameConsole: ['wii'] 
     }, 
     {
         title: "Resistance: Fall of Man", 
         yearReleased: 2006, 
         myRating: 5, 
-        gameConsole: ['ps3'], 
-        keywords: ['singleplayer', 'multiplayer', 'co-op', 'fps'] 
+        gameConsole: ['ps3'] 
     }, 
     {
         title: "Rise of the Tomb Raider", 
         yearReleased: 2015, 
         myRating: 7, 
-        gameConsole: ['xb1'], 
-        keywords: ['singleplayer', 'action-adventure', 'third-person-shooter'] 
+        gameConsole: ['xb1'] 
     }, 
     {
         title: "Rituals", 
         yearReleased: 2015, 
         myRating: 4, 
-        gameConsole: ['pc'], 
-        keywords: ['singleplayer', 'point-and-click', 'adventure'] 
+        gameConsole: ['pc'] 
     }, 
     {
         title: "Road Rash", 
         yearReleased: 1991, 
         myRating: 6, 
-        gameConsole: ['gen'], 
-        keywords: ['singleplayer', 'multiplayer', 'racing'] 
+        gameConsole: ['gen'] 
     }, 
     {
         title: "Rugrats in Paris: The Movie", 
         yearReleased: 2000, 
         myRating: 6, 
-        gameConsole: ['ps1'], 
-        keywords: ['singleplayer', 'multiplayer', 'platformer', 'adventure'] 
+        gameConsole: ['ps1'] 
     }, 
     {
         title: "Rusty Lake Hotel", 
         yearReleased: 2015, 
         myRating: 7, 
-        gameConsole: ['pc'], 
-        keywords: ['singleplayer', 'point-and-click', 'puzzle', 'adventure'] 
+        gameConsole: ['pc'] 
     }, 
     {
         title: "Rusty Lake: Roots", 
         yearReleased: 2016, 
         myRating: 7, 
-        gameConsole: ['pc'], 
-        keywords: ['singleplayer', 'point-and-click', 'puzzle', 'adventure'] 
+        gameConsole: ['pc'] 
     }, 
     {
         title: "Scribblenauts Unlimited", 
         yearReleased: 2012, 
         myRating: 7, 
-        gameConsole: ['pc'], 
-        keywords: ['singleplayer', 'multiplayer', 'puzzle', 'sandbox'] 
+        gameConsole: ['pc'] 
     }, 
     {
         title: "Shadow of the Colossus", 
         yearReleased: 2005, 
         myRating: 8, 
-        gameConsole: ['ps3'], 
-        keywords: ['singleplayer', 'action-adventure', 'puzzle'] 
+        gameConsole: ['ps3'] 
     }, 
     {
         title: "Snipperclips Plus", 
         yearReleased: 2017, 
         myRating: 7, 
-        gameConsole: ['ns'], 
-        keywords: ['singleplayer', 'multiplayer', 'puzzle'] 
+        gameConsole: ['ns'] 
     }, 
     {
         title: "Slayaway Camp", 
         yearReleased: 2016, 
         myRating: 8, 
-        gameConsole: ['pc', 'xb1'], 
-        keywords: ['singleplayer', 'puzzle'] 
+        gameConsole: ['pc', 'xb1'] 
     }, 
     {
         title: "Slime Rancher", 
         yearReleased: 2017, 
         myRating: 9, 
-        gameConsole: ['xb1'], 
-        keywords: ['singleplayer', 'adventure', 'exploration'] 
+        gameConsole: ['xb1'] 
     }, 
     {
         title: "Sonic Adventure 2: Battle", 
         yearReleased: 2001, 
         myRating: 7, 
-        gameConsole: ['gc'], 
-        keywords: ['singleplayer', 'multiplayer', 'platformer', 'action-adventure'] 
+        gameConsole: ['gc'] 
     }, 
     {
         title: "South Park: The Stick of Truth", 
         yearReleased: 2014, 
         myRating: 7, 
-        gameConsole: ['pc'], 
-        keywords: ['singleplayer', 'rpg'] 
+        gameConsole: ['pc'] 
     }, 
     {
         title: "SpeedRunners", 
         yearReleased: 2016, 
         myRating: 7, 
-        gameConsole: ['pc', 'xb1'], 
-        keywords: ['singleplayer', 'multiplayer', 'platformer', 'racing'] 
+        gameConsole: ['pc', 'xb1'] 
     }, 
     {
         title: "Spyro 2: Ripto's Rage!", 
         yearReleased: 1999, 
         myRating: 7, 
-        gameConsole: ['ps1', 'ps3', 'xb1'], 
-        keywords: ['singleplayer', 'platformer'] 
+        gameConsole: ['ps1', 'ps3', 'xb1'] 
     }, 
     {
         title: "Spyro the Dragon", 
         yearReleased: 1998, 
         myRating: 7, 
-        gameConsole: ['ps1', 'ps3', 'xb1'], 
-        keywords: ['singleplayer', 'platformer'] 
+        gameConsole: ['ps1', 'ps3', 'xb1'] 
     }, 
     {
         title: "Stardew Valley", 
         yearReleased: 2016, 
         myRating: 10, 
-        gameConsole: ['pc'], 
-        keywords: ['singleplayer', 'co-op', 'simulation', 'rpg'] 
+        gameConsole: ['pc'] 
     }, 
     {
         title: "Steamworld Dig 2", 
         yearReleased: 2017, 
         myRating: 7, 
-        gameConsole: ['xb1'], 
-        keywords: ['singleplayer', 'platformer', 'action-adventure', 'metroidvania'] 
+        gameConsole: ['xb1'] 
     }, 
     {
         title: "Stranger Things: The Game", 
         yearReleased: 2017, 
         myRating: 6, 
-        gameConsole: ['ios'], 
-        keywords: ['singleplayer', 'adventure'] 
+        gameConsole: ['ios'] 
     }, 
     {
         title: "Street Fighter II", 
         yearReleased: 1991, 
         myRating: 6, 
-        gameConsole: ['snes'], 
-        keywords: ['singleplayer', 'multiplayer', 'fighting'] 
+        gameConsole: ['snes'] 
     }, 
     {
         title: "Stubbs the Zombie in Rebel Without a Pulse", 
         yearReleased: 2005, 
         myRating: 6, 
-        gameConsole: ['xbox'], 
-        keywords: ['singleplayer', 'adventure'] 
+        gameConsole: ['xbox'] 
     }, 
     {
         title: "Super Mario 64", 
         yearReleased: 1996, 
         myRating: 9, 
-        gameConsole: ['n64', 'wii', 'ns'], 
-        keywords: ['singleplayer', 'platformer'] 
+        gameConsole: ['n64', 'wii', 'ns'] 
     }, 
     {
         title: "Super Mario 64 DS", 
         yearReleased: 2004, 
         myRating: 9, 
-        gameConsole: ['ds'], 
-        keywords: ['singleplayer', 'platformer', 'multiplayer'] 
+        gameConsole: ['ds'] 
     }, 
     {
         title: "Super Mario Bros.", 
         yearReleased: 1985, 
         myRating: 6, 
-        gameConsole: ['nes'], 
-        keywords: ['singleplayer', 'multiplayer', 'platformer'] 
+        gameConsole: ['nes'] 
     }, 
     {
         title: "Super Mario Bros. Deluxe", 
         yearReleased: 1999, 
         myRating: 7, 
-        gameConsole: ['gbc', 'gbasp'], 
-        keywords: ['singleplayer', 'multiplayer', 'platformer'] 
+        gameConsole: ['gbc', 'gbasp'] 
     }, 
     {
         title: "Super Mario Kart", 
         yearReleased: 1992, 
         myRating: 6, 
-        gameConsole: ['snes'], 
-        keywords: ['singleplayer', 'multiplayer', 'racing', 'party'] 
+        gameConsole: ['snes'] 
     }, 
     {
         title: "Super Mario Odyssey", 
         yearReleased: 2017, 
         myRating: 9, 
-        gameConsole: ['ns'], 
-        keywords: ['singleplayer', 'co-op', 'platformer'] 
+        gameConsole: ['ns'] 
     }, 
     {
         title: "Super Mario Party", 
         yearReleased: 2018, 
         myRating: 7, 
-        gameConsole: ['ns'], 
-        keywords: ['singleplayer', 'multiplayer', 'co-op', 'party'] 
+        gameConsole: ['ns'] 
     }, 
     {
         title: "Super Mario Run", 
         yearReleased: 2016, 
         myRating: 7, 
-        gameConsole: ['ios'], 
-        keywords: ['singleplayer', 'multiplayer', 'platformer', 'runner'] 
+        gameConsole: ['ios'] 
     }, 
     {
         title: "Super Mario Sunshine", 
         yearReleased: 2002, 
         myRating: 9, 
-        gameConsole: ['gc', 'ns'], 
-        keywords: ['singleplayer', 'platformer'] 
+        gameConsole: ['gc', 'ns'] 
     }, 
     {
         title: "Super Mario World", 
         yearReleased: 1990, 
         myRating: 10, 
-        gameConsole: ['snes'], 
-        keywords: ['singleplayer', 'multiplayer', 'platformer'] 
+        gameConsole: ['snes'] 
     }, 
     {
         title: "Super Mario World: Super Mario Advance 2", 
         yearReleased: 2001, 
         myRating: 10, 
-        gameConsole: ['gbasp'], 
-        keywords: ['singleplayer', 'multiplayer', 'platformer'] 
+        gameConsole: ['gbasp'] 
     }, 
     {
         title: "Super Meat Boy", 
         yearReleased: 2010, 
         myRating: 8, 
-        gameConsole: ['x360', 'xb1'], 
-        keywords: ['singleplayer', 'platformer'] 
+        gameConsole: ['x360', 'xb1'] 
     }, 
     {
         title: "Super Mega Baseball: Extra Innings", 
         yearReleased: 2014, 
         myRating: 7, 
-        gameConsole: ['xb1'], 
-        keywords: ['singleplayer', 'multiplayer', 'sports'] 
+        gameConsole: ['xb1'] 
     }, 
     {
         title: "Super Smash Bros.", 
         yearReleased: 1999, 
         myRating: 7, 
-        gameConsole: ['n64', 'wii'], 
-        keywords: ['singleplayer', 'multiplayer', 'fighting'] 
+        gameConsole: ['n64', 'wii'] 
     }, 
     {
         title: "Super Smash Bros.: Brawl", 
         yearReleased: 2008, 
         myRating: 6, 
-        gameConsole: ['wii'], 
-        keywords: ['singleplayer', 'multiplayer', 'fighting'] 
+        gameConsole: ['wii'] 
     }, 
     {
         title: "Super Smash Bros.: Melee", 
         yearReleased: 2001, 
         myRating: 9, 
-        gameConsole: ['gc'], 
-        keywords: ['singleplayer', 'multiplayer', 'fighting'] 
+        gameConsole: ['gc'] 
     }, 
     {
         title: "Superhot", 
         yearReleased: 2016, 
         myRating: 8, 
-        gameConsole: ['xb1'], 
-        keywords: ['singleplayer', 'fps'] 
+        gameConsole: ['xb1'] 
     }, 
     {
         title: "Superhot: Mind Control Delete", 
         yearReleased: 2020, 
         myRating: 6, 
-        gameConsole: ['xsx'], 
-        keywords: ['singleplayer', 'fps'] 
+        gameConsole: ['xsx'] 
     }, 
     {
         title: "Superliminal", 
         yearReleased: 2019, 
         myRating: 8, 
-        gameConsole: ['xb1'], 
-        keywords: ['singleplayer', 'puzzle'] 
+        gameConsole: ['xb1'] 
     }, 
     {
         title: "Tales from the Borderlands", 
         yearReleased: 2014, 
         myRating: 7, 
-        gameConsole: ['xb1'], 
-        keywords: ['singleplayer', 'adventure', 'interactive-film'] 
+        gameConsole: ['xb1'] 
     },
     {
         title: "Teenage Mutant Ninja Turtles", 
         yearReleased: 1989, 
         myRating: 5, 
-        gameConsole: ['arcade'], 
-        keywords: ['singleplayer', 'co-op', 'beat-em-up'] 
+        gameConsole: ['arcade'] 
     },  
     {
         title: "Teenage Mutant Ninja Turtles: Turtles in Time", 
         yearReleased: 1991, 
         myRating: 5, 
-        gameConsole: ['snes'], 
-        keywords: ['singleplayer', 'co-op', 'beat-em-up'] 
+        gameConsole: ['snes'] 
     }, 
     {
         title: "Terminator: Salvation", 
         yearReleased: 2009, 
         myRating: 3, 
-        gameConsole: ['ps3'], 
-        keywords: ['singleplayer', 'co-op', 'third-person-shooter'] 
+        gameConsole: ['ps3'] 
     }, 
     {
         title: "Tetris Effect: Connected", 
         yearReleased: 2018, 
         myRating: 7, 
-        gameConsole: ['xb1'], 
-        keywords: ['singleplayer', 'multiplayer', 'puzzle'] 
+        gameConsole: ['xb1'] 
     }, 
     {
         title: "The Artful Escape", 
         yearReleased: 2021, 
         myRating: 8, 
-        gameConsole: ['xsx'], 
-        keywords: ['singleplayer', 'art', 'music'] 
+        gameConsole: ['xsx'] 
     }, 
     {
         title: "The Cave", 
         yearReleased: 2013, 
         myRating: 7, 
-        gameConsole: ['pc', 'xb1'], 
-        keywords: ['singleplayer', 'co-op', 'puzzle', 'platformer', 'adventure'] 
+        gameConsole: ['pc', 'xb1'] 
     }, 
     {
         title: "The House of the Dead", 
         yearReleased: 1996, 
         myRating: 6, 
-        gameConsole: ['arcade'], 
-        keywords: ['singleplayer', 'co-op', 'rail-shooter', 'horror'] 
+        gameConsole: ['arcade'] 
     }, 
     {
         title: "The Legend of Zelda: Ocarina of Time", 
         yearReleased: 1998, 
         myRating: 6, 
-        gameConsole: ['n64'], 
-        keywords: ['singleplayer', 'action-adventure'] 
+        gameConsole: ['n64'] 
     }, 
     {
         title: "The LEGO Movie Videogame", 
         yearReleased: 2014, 
         myRating: 7, 
-        gameConsole: ['xb1'], 
-        keywords: ['singleplayer', 'co-op', 'action-adventure'] 
+        gameConsole: ['xb1'] 
     }, 
     {
         title: "The Park", 
         yearReleased: 2015, 
         myRating: 6, 
-        gameConsole: ['xb1'], 
-        keywords: ['singleplayer', 'walking-simulator', 'adventure', 'horror'] 
+        gameConsole: ['xb1'] 
     }, 
     {
         title: "The Plan", 
         yearReleased: 2013, 
         myRating: 5, 
-        gameConsole: ['pc'], 
-        keywords: ['singleplayer', 'art'] 
+        gameConsole: ['pc'] 
     }, 
     {
         title: "The Room", 
         yearReleased: 2012, 
         myRating: 6, 
-        gameConsole: ['pc'], 
-        keywords: ['singleplayer', 'puzzle', 'point-and-click'] 
+        gameConsole: ['pc'] 
     }, 
     {
         title: "The Room Two", 
         yearReleased: 2013, 
         myRating: 6, 
-        gameConsole: ['pc'], 
-        keywords: ['singleplayer', 'puzzle', 'point-and-click'] 
+        gameConsole: ['pc'] 
     }, 
     {
         title: "The Simpsons", 
         yearReleased: 1991, 
         myRating: 5, 
-        gameConsole: ['ps3'], 
-        keywords: ['singleplayer', 'co-op', 'beat-em-up'] 
+        gameConsole: ['ps3'] 
     }, 
     {
         title: "The Stanley Parable: Ultra Deluxe", 
         yearReleased: 2022, 
         myRating: 9, 
-        gameConsole: ['xsx'], 
-        keywords: ['singleplayer', 'adventure', 'casual'] 
+        gameConsole: ['xsx'] 
     }, 
     {
         title: "The Touryst", 
         yearReleased: 2019, 
         myRating: 7, 
-        gameConsole: ['xb1'], 
-        keywords: ['singleplayer', 'action-adventure', 'puzzle'] 
+        gameConsole: ['xb1'] 
     }, 
     {
         title: "The Witness", 
         yearReleased: 2016, 
         myRating: 7, 
-        gameConsole: ['xb1'], 
-        keywords: ['singleplayer', 'puzzle', 'adventure'] 
+        gameConsole: ['xb1'] 
     }, 
     {
         title: "Thirty Flights of Loving", 
         yearReleased: 2012, 
         myRating: 5, 
-        gameConsole: ['pc'], 
-        keywords: ['singleplayer', 'adventure'] 
+        gameConsole: ['pc'] 
     }, 
     {
         title: "Thomas Was Alone", 
         yearReleased: 2012, 
         myRating: 9, 
-        gameConsole: ['pc', 'xb1'], 
-        keywords: ['singleplayer', 'platformer', 'adventure'] 
+        gameConsole: ['pc', 'xb1'] 
     }, 
     {
         title: "TimeSplitters: Future Perfect", 
         yearReleased: 2005, 
         myRating: 7, 
-        gameConsole: ['ps2'], 
-        keywords: ['singleplayer', 'multiplayer', 'fps'] 
+        gameConsole: ['ps2'] 
     }, 
     {
         title: "Tiny Toon Adventures: Acme All-Stars", 
         yearReleased: 1994, 
         myRating: 8, 
-        gameConsole: ['gen'], 
-        keywords: ['singleplayer', 'multiplayer', 'sports'] 
+        gameConsole: ['gen'] 
     }, 
     {
         title: "Tomb Raider: Definitive Edition", 
         yearReleased: 2014, 
         myRating: 8, 
-        gameConsole: ['xb1'], 
-        keywords: ['singleplayer', 'action-adventure', 'third-person-shooter', 'multiplayer'] 
+        gameConsole: ['xb1'] 
     }, 
     {
         title: "Tony Hawk's Pro Skater", 
         yearReleased: 1999, 
         myRating: 7, 
-        gameConsole: ['ps1', 'xb1'], 
-        keywords: ['singleplayer', 'multiplayer', 'sports'] 
+        gameConsole: ['ps1', 'xb1'] 
     }, 
     {
         title: "Tony Hawk's Pro Skater 2", 
         yearReleased: 2000, 
         myRating: 7, 
-        gameConsole: ['xb1'], 
-        keywords: ['singleplayer', 'multiplayer', 'sports'] 
+        gameConsole: ['xb1'] 
     }, 
     {
         title: "Tony Hawk's Pro Skater 3", 
         yearReleased: 2001, 
         myRating: 6, 
-        gameConsole: ['gc'], 
-        keywords: ['singleplayer', 'multiplayer', 'sports'] 
+        gameConsole: ['gc'] 
     }, 
     {
         title: "Twelve Minutes", 
         yearReleased: 2021, 
         myRating: 7, 
-        gameConsole: ['xsx'], 
-        keywords: ['singleplayer', 'adventure'] 
+        gameConsole: ['xsx'] 
     }, 
     {
         title: "Twisted Metal 2", 
         yearReleased: 1996, 
         myRating: 5, 
-        gameConsole: ['ps1'], 
-        keywords: ['singleplayer', 'multiplayer', 'co-op', 'vehicular-combat'] 
+        gameConsole: ['ps1'] 
     }, 
     {
         title: "Uncharted 2: Among Thieves", 
         yearReleased: 2009, 
         myRating: 10, 
-        gameConsole: ['ps3', 'ps4'], 
-        keywords: ['singleplayer', 'multiplayer', 'action-adventure', 'third-person-shooter'] 
+        gameConsole: ['ps3', 'ps4'] 
     }, 
     {
         title: "Uncharted 3: Drake's Deception", 
         yearReleased: 2011, 
         myRating: 10, 
-        gameConsole: ['ps3', 'ps4'], 
-        keywords: ['singleplayer', 'multiplayer', 'action-adventure', 'third-person-shooter'] 
+        gameConsole: ['ps3', 'ps4'] 
     }, 
     {
         title: "Uncharted 4 PS4", 
         yearReleased: 2016, 
         myRating: 10, 
-        gameConsole: ['ps4'], 
-        keywords: ['singleplayer', 'multiplayer', 'action-adventure', 'third-person-shooter'] 
+        gameConsole: ['ps4'] 
     }, 
     {
         title: "Uncharted: Drake's Fortune", 
         yearReleased: 2007, 
         myRating: 10, 
-        gameConsole: ['ps3', 'ps4'], 
-        keywords: ['singleplayer', 'action-adventure', 'third-person-shooter'] 
+        gameConsole: ['ps3', 'ps4'] 
     },  
     {
         title: "Unpacking", 
         yearReleased: 2021, 
         myRating: 8, 
-        gameConsole: ['xsx'], 
-        keywords: ['singleplayer', 'puzzle', 'casual'] 
+        gameConsole: ['xsx'] 
     }, 
     {
         title: "Untitled Goose Game", 
         yearReleased: 2019, 
         myRating: 9, 
-        gameConsole: ['xb1'], 
-        keywords: ['singleplayer', 'puzzle', 'stealth', 'co-op'] 
+        gameConsole: ['xb1'] 
     }, 
     {
         title: "Vectorman", 
         yearReleased: 1995, 
         myRating: 4, 
-        gameConsole: ['gen'], 
-        keywords: ['singleplayer', 'platformer'] 
+        gameConsole: ['gen'] 
     }, 
     {
         title: "Virtua Fighter 5: Final Showdown", 
         yearReleased: 2010, 
         myRating: 4, 
-        gameConsole: ['xb1'], 
-        keywords: ['singleplayer', 'multiplayer', 'fighting'] 
+        gameConsole: ['xb1'] 
     }, 
     {
         title: "Voodoo Vince: Remastered", 
         yearReleased: 2003, 
         myRating: 6, 
-        gameConsole: ['xb1'], 
-        keywords: ['singleplayer', 'platformer'] 
+        gameConsole: ['xb1'] 
+    }, 
+    {
+        title: "Walkabout Mini Golf", 
+        yearReleased: 2020, 
+        myRating: 10, 
+        gameConsole: ['mq'] 
     }, 
     {
         title: "WarioWare: Touched!", 
         yearReleased: 2004, 
         myRating: 7, 
-        gameConsole: ['ds'], 
-        keywords: ['singleplayer', 'action'] 
+        gameConsole: ['ds'] 
     }, 
     {
         title: "What Remains of Edith Finch", 
         yearReleased: 2017, 
         myRating: 9, 
-        gameConsole: ['xb1'], 
-        keywords: ['singleplayer', 'adventure'] 
+        gameConsole: ['xb1'] 
     }, 
     {
         title: "Wizorb", 
         yearReleased: 2011, 
         myRating: 7, 
-        gameConsole: ['pc'], 
-        keywords: ['singleplayer', 'breakout-clone'] 
+        gameConsole: ['pc'] 
     }, 
     {
         title: "Wolfenstein", 
         yearReleased: 2009, 
         myRating: 6, 
-        gameConsole: ['ps3'], 
-        keywords: ['singleplayer', 'multiplayer', 'fps'] 
+        gameConsole: ['ps3'] 
     }, 
     {
         title: "Yu-Gi-Oh! Dark Duel Stories", 
         yearReleased: 2002, 
         myRating: 5, 
-        gameConsole: ['gbc'], 
-        keywords: ['singleplayer', 'card-game'] 
+        gameConsole: ['gbc'] 
     }, 
     {
         title: "Yu-Gi-Oh! The Eternal Duelist Soul", 
         yearReleased: 2001, 
         myRating: 7, 
-        gameConsole: ['gbasp'], 
-        keywords: ['singleplayer', 'multiplayer', 'card-game'] 
+        gameConsole: ['gbasp'] 
     }, 
     {
         title: "Yu-Gi-Oh! The Falsebound Kingdom", 
         yearReleased: 2002, 
         myRating: 5, 
-        gameConsole: ['gc'], 
-        keywords: ['singleplayer', 'rts'] 
+        gameConsole: ['gc'] 
     }, 
     {
         title: "Yu-Gi-Oh! The Sacred Cards", 
         yearReleased: 2003, 
         myRating: 7, 
-        gameConsole: ['gbasp'], 
-        keywords: ['singleplayer', 'multiplayer', 'card-game'] 
+        gameConsole: ['gbasp'] 
     }, 
     {
         title: "Yu-Gi-Oh!: Forbidden Memories", 
         yearReleased: 1999, 
         myRating: 5, 
-        gameConsole: ['ps2'], 
-        keywords: ['singleplayer', 'multiplayer', 'card-game'] 
+        gameConsole: ['ps2'] 
     }, 
     {
         title: "Yu-Gi-Oh!: The Duelists of the Roses", 
         yearReleased: 2001, 
         myRating: 9, 
-        gameConsole: ['ps2'], 
-        keywords: ['singleplayer', 'multiplayer', 'card-game'] 
+        gameConsole: ['ps2'] 
     }, 
 
-];
-
-let allGamesOrderedRankings = [
-    "Super Mario World: Super Mario Advance 2",
-    "Super Mario World",
-    "Minecraft",
-    "Stardew Valley",
-    "Mario Kart: Double Dash!!",
-    "Uncharted 2: Among Thieves",
-    "Uncharted: Drake's Fortune",
-    "Portal 2",
-    "Uncharted 4 PS4",
-    "Uncharted 3: Drake's Deception",
-    "Portal",
-    "Inside",
-    "Limbo",
-    "It Takes Two",
-    "Mario Kart 8",
-    "Halo 2",
-    "Super Mario Odyssey",
-    "Super Mario Sunshine",
-    "Super Mario 64",
-    "Halo 3",
-    "Slime Rancher",
-    "Super Smash Bros.: Melee",
-    "Ori and the Blind Forest",
-    "Super Mario 64 DS",
-    "What Remains of Edith Finch",
-    "Brothers: A Tale of Two Sons",
-    "Forza Horizon 5",
-    "Golf Story",
-    "Thomas Was Alone",
-    "Firewatch",
-    "The Stanley Parable: Ultra Deluxe",
-    "A Short Hike",
-    "Yu-Gi-Oh!: The Duelists of the Roses",
-    "Assassin's Creed Odyssey",
-    "Refunct",
-    "Call of the Sea",
-    "Untitled Goose Game",
-    "Little Inferno",
-    "New Super Mario Bros.",
-    "Mario Kart DS",
-    "Mario Kart 64",
-    "Mario Kart Super Circuit",
-    "Alto's Adventure",
-    "Left 4 Dead 2",
-    "Left 4 Dead",
-    "Peggle",
-    "Peggle Nights",
-    "Peggle 2",
-    "Peggle Extreme",
-    "Peggle: World of Warcraft Edition",
-    "Super Meat Boy",
-    "Superhot",
-    "Afrika",
-    "LEGO Harry Potter: Years 5-7",
-    "LEGO Harry Potter: Years 1-4",
-    "Dead Space",
-    "Harry Potter and the Prisoner of Azkaban GBA",
-    "Pokemon Lets Go Eevee",
-    "Tiny Toon Adventures: Acme All-Stars",
-    "Assassin's Creed Origins",
-    "Superliminal",
-    "Gone Home",
-    "Backyard Baseball",
-    "The Artful Escape",
-    "Shadow of the Colossus",
-    "Tomb Raider: Definitive Edition",
-    "Harry Potter and the Prisoner of Azkaban",
-    "Just Dance 2020",
-    "LittleBigPlanet",
-    "Day of the Tentacle Remastered",
-    "Moving Out",
-    "Oxenfree",
-    "Slayaway Camp",
-    "Gears of War",
-    "Dance Dance Revolution Mario Mix",
-    "Unpacking",
-    "Minesweeper Genius",
-    "Progress (to 100)",
-    "Super Smash Bros.",
-    "Halo: Combat Evolved Anniversary",
-    "Halo: Combat Evolved",
-    "Halo 4",
-    "Spyro 2: Ripto's Rage!",
-    "Spyro the Dragon",
-    "Borderlands",
-    "Yu-Gi-Oh! The Sacred Cards",
-    "Plants vs. Zombies",
-    "Fable",
-    "Sonic Adventure 2: Battle",
-    "Pokemon Blue Version",
-    "Pokemon Red Version",
-    "Pokemon Silver Version",
-    "Pokemon Gold Version",
-    "Pokemon Crystal Version",
-    "Super Mario Bros. Deluxe",
-    "Call of Duty: Black Ops",
-    "Call of Duty: Modern Warfare 2",
-    "Animal Crossing New Horizons",
-    "Elite Beat Agents",
-    "Super Mario Party",
-    "Resident Evil 3",
-    "Yu-Gi-Oh! The Eternal Duelist Soul",
-    "Tales from the Borderlands",
-    "South Park: The Stick of Truth",
-    "SpeedRunners",
-    "Fez",
-    "Resident Evil 4",
-    "Backyard Football",
-    "Q.U.B.E. 2",
-    "Fire Emblem",
-    "Jetpack Joyride",
-    "Guitar Hero III: Legends of Rock",
-    "New Pokemon Snap",
-    "Pokemon Snap",
-    "Pokemon FireRed Version",
-    "Rise of the Tomb Raider",
-    "Steamworld Dig 2",
-    "The Witness",
-    "Twelve Minutes",
-    "Banjo-Kazooie",
-    "Tony Hawk's Pro Skater",
-    "Tony Hawk's Pro Skater 2",
-    "Scribblenauts Unlimited",
-    "TimeSplitters: Future Perfect",
-    "WarioWare: Touched!",
-    "Wizorb",
-    "The Cave",
-    "Harry Potter and the Sorcerer's Stone",
-    "Monument Valley",
-    "Never Alone",
-    "Kirby's Pinball Land",
-    "Kitty Letter",
-    "Super Mario Run",
-    "Home",
-    "Card City Nights",
-    "GoldenEye: Rogue Agent",
-    "Golf Peaks",
-    "Flower",
-    "Modern Tales: Age of Invention",
-    "Max: The Curse of Brotherhood",
-    "Snipperclips Plus",
-    "Tetris Effect: Connected",
-    "The LEGO Movie Videogame",
-    "The Touryst",
-    "Banjo-Tooie",
-    "Hook",
-    "Calculator: The Game",
-    "Super Mega Baseball: Extra Innings",
-    "Rusty Lake Hotel",
-    "Rusty Lake: Roots",
-    "Donut Country",
-    "Rain On Your Parade",
-    "Super Smash Bros.: Brawl",
-    "Super Mario Kart",
-    "Super Mario Bros.",
-    "Pokemon Ruby Version",
-    "Pokemon Pinball",
-    "Dear Esther",
-    "Braid",
-    "Resident Evil 3: Nemesis",
-    "Resident Evil: Deadly Silence",
-    "Luigi's Mansion",
-    "GoldenEye 007",
-    "The Legend of Zelda: Ocarina of Time",
-    "Stranger Things: The Game",
-    "Battleblock Theater",
-    "Halo: Reach",
-    "CTR: Crash Team Racing",
-    "ABZU",
-    "The Room",
-    "The Room Two",
-    "Halo 3: ODST",
-    "Wolfenstein",
-    "Idle Acorns",
-    "Hue",
-    "Organ Trail",
-    "Guacamelee!: Super Turbo Championship Edition",
-    "Machinarium",
-    "Condemned: Criminal Origins",
-    "Road Rash",
-    "Game Dev Tycoon",
-    "Castlevania: Dawn of Sorrow",
-    "The Park",
-    "A Memoir Blue",
-    "Voodoo Vince: Remastered",
-    "Superhot: Mind Control Delete",
-    "Paperboy",
-    "10 Second Ninja X",
-    "Manhunt",
-    "Stubbs the Zombie in Rebel Without a Pulse",
-    "Tony Hawk's Pro Skater 3",
-    "Polarity",
-    "The House of the Dead",
-    "Mortal Kombat: Deception",
-    "Mortal Kombat: Deadly Alliance",
-    "Mortal Kombat: Armageddon",
-    "Mortal Kombat vs. DC Universe",
-    "Mortal Kombat 4",
-    "Street Fighter II",
-    "Mortal Kombat",
-    "Mortal Kombat II",
-    "Pokemon Quest",
-    "Late Shift",
-    "Her Story",
-    "Rugrats in Paris: The Movie",
-    "Hidden Through Time",
-    "Deadstorm Pirates 4D",
-    "Need for Speed: Hot Pursuit 2",
-    "Resident Evil: The Umbrella Chronicles",
-    "Resident Evil: Dead Aim",
-    "Resident Evil",
-    "Yu-Gi-Oh!: Forbidden Memories",
-    "Resistance: Fall of Man",
-    "Freddi Fish 3: The Case of the Stolen Conch Shell",
-    "PAW Patrol Mighty Pups Save Adventure Bay",
-    "A Dinosaur's Tale",
-    "Frogger Returns",
-    "Homefront",
-    "#IDARB",
-    "Yu-Gi-Oh! Dark Duel Stories",
-    "Teenage Mutant Ninja Turtles: Turtles in Time",
-    "The Simpsons",
-    "Teenage Mutant Ninja Turtles",
-    "Twisted Metal 2",
-    "Yu-Gi-Oh! The Falsebound Kingdom",
-    "The Plan",
-    "Thirty Flights of Loving",
-    "Vectorman",
-    "Virtua Fighter 5: Final Showdown",
-    "Altered Beast",
-    "Rituals",
-    "Fractured Minds",
-    "Linger in Shadows",
-    ".detuned",
-    "Terminator: Salvation",
 ];
