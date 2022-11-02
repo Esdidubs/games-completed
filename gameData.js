@@ -838,6 +838,12 @@ let gameData = [
         yearReleased: 2021, 
         myRating: 7, 
         gameConsole: ['xb1'] 
+    },  
+    {
+        title: "Red Matter", 
+        yearReleased: 2018, 
+        myRating: 8, 
+        gameConsole: ['mq'] 
     }, 
     {
         title: "Refunct", 
