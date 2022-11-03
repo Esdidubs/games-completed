@@ -648,6 +648,12 @@ let gameData = [
         gameConsole: ['xb1'] 
     }, 
     {
+        title: "Myst", 
+        yearReleased: 1993, 
+        myRating: 8, 
+        gameConsole: ['mq'] 
+    }, 
+    {
         title: "Need for Speed: Hot Pursuit 2", 
         yearReleased: 2002, 
         myRating: 5, 
