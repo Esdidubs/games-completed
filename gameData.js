@@ -282,6 +282,12 @@ let gameData = [
         gameConsole: ['pc'] 
     }, 
     {
+        title: "Garden of the Sea", 
+        yearReleased: 2022, 
+        myRating: 8, 
+        gameConsole: ['mq'] 
+    }, 
+    {
         title: "Gears of War", 
         yearReleased: 2006, 
         myRating: 8, 
