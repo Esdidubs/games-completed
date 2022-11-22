@@ -1272,6 +1272,12 @@ let gameData = [
         gameConsole: ['pc', 'xb1'] 
     }, 
     {
+        title: "Thrill of the Fight", 
+        yearReleased: 2016, 
+        myRating: 8, 
+        gameConsole: ['mq'] 
+    },
+    {
         title: "TimeSplitters: Future Perfect", 
         yearReleased: 2005, 
         myRating: 7, 
