@@ -114,6 +114,12 @@ let gameData = [
         gameConsole: ['pc'] 
     }, 
     {
+        title: "Beat Saber", 
+        yearReleased: 2018, 
+        myRating: 10, 
+        gameConsole: ['mq'] 
+    }, 
+    {
         title: "Borderlands", 
         yearReleased: 2009, 
         myRating: 7, 
