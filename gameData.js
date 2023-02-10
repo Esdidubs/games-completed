@@ -818,7 +818,7 @@ let gameData = [
     title: "Pokemon Snap",
     yearReleased: 1999,
     myRating: 7,
-    gameConsole: ["wii"],
+    gameConsole: ["wii", "ns"],
   },
   {
     title: "Pokemon Lets Go Eevee",
