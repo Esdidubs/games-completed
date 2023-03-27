@@ -785,10 +785,22 @@ let gameData = [
     gameConsole: ["gbc", "gbasp"],
   },
   {
+    title: "Pokemon Lets Go Eevee",
+    yearReleased: 2013,
+    myRating: 8,
+    gameConsole: ["ns"],
+  },
+  {
     title: "Pokemon Pinball",
     yearReleased: 1999,
     myRating: 6,
     gameConsole: ["gbc", "gbasp"],
+  },
+  {
+    title: "Pokemon Puzzle League",
+    yearReleased: 2000,
+    myRating: 6,
+    gameConsole: ["ns"],
   },
   {
     title: "Pokemon Quest",
@@ -819,12 +831,6 @@ let gameData = [
     yearReleased: 1999,
     myRating: 7,
     gameConsole: ["wii", "ns"],
-  },
-  {
-    title: "Pokemon Lets Go Eevee",
-    yearReleased: 2013,
-    myRating: 8,
-    gameConsole: ["ns"],
   },
   {
     title: "Polarity",
@@ -1401,6 +1407,12 @@ let gameData = [
     yearReleased: 2020,
     myRating: 10,
     gameConsole: ["mq"],
+  },
+  {
+    title: "WarioWare, Inc.: Mega Microgames!",
+    yearReleased: 2003,
+    myRating: 6,
+    gameConsole: ["ns"],
   },
   {
     title: "WarioWare: Touched!",
