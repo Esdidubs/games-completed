@@ -1253,6 +1253,12 @@ let gameData = [
     gameConsole: ["pc"],
   },
   {
+    title: "The Room VR",
+    yearReleased: 2020,
+    myRating: 9,
+    gameConsole: ["mq"],
+  },
+  {
     title: "The Simpsons",
     yearReleased: 1991,
     myRating: 5,
