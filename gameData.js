@@ -419,6 +419,12 @@ let gameData = [
         gameConsole: ["xb1"],
     },
     {
+        title: "Hogwarts Legacy",
+        yearReleased: 2023,
+        myRating: "Loved",
+        gameConsole: ["xsx"],
+    },
+    {
         title: "Home",
         yearReleased: 2012,
         myRating: "Liked",
