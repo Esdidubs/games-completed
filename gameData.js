@@ -233,6 +233,12 @@ let gameData = [
         gameConsole: ["ds"],
     },
     {
+        title: "Eye of the Temple",
+        yearReleased: 2021,
+        myRating: "Liked",
+        gameConsole: ["mq"],
+    },
+    {
         title: "Fable",
         yearReleased: 2004,
         myRating: "Liked",
@@ -453,6 +459,12 @@ let gameData = [
         yearReleased: 2021,
         myRating: "Meh",
         gameConsole: ["ios"],
+    },
+    {
+        title: "I Expect You To Die",
+        yearReleased: 2016,
+        myRating: "Liked",
+        gameConsole: ["mq"],
     },
     {
         title: "Inside",
@@ -759,6 +771,18 @@ let gameData = [
         yearReleased: 2007,
         myRating: "Liked",
         gameConsole: ["pc"],
+    },
+    {
+        title: "Pixel Ripped 1989",
+        yearReleased: 2018,
+        myRating: "Liked",
+        gameConsole: ["mq"],
+    },
+    {
+        title: "Pixel Ripped 1995",
+        yearReleased: 2020,
+        myRating: "Loved",
+        gameConsole: ["mq"],
     },
     {
         title: "Plants vs. Zombies",
