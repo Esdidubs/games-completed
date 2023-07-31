@@ -173,6 +173,12 @@ let gameData = [
         gameConsole: ["ds"],
     },
     {
+        title: "Celeste",
+        yearReleased: 2018,
+        myRating: "Meh",
+        gameConsole: ["xsx"],
+    },
+    {
         title: "Condemned: Criminal Origins",
         yearReleased: 2005,
         myRating: "Meh",
@@ -685,6 +691,18 @@ let gameData = [
     {
         title: "Myst",
         yearReleased: 1993,
+        myRating: "Liked",
+        gameConsole: ["pc"],
+    },
+    {
+        title: "realMyst",
+        yearReleased: 2014,
+        myRating: "Liked",
+        gameConsole: ["pc"],
+    },
+    {
+        title: "Myst VR",
+        yearReleased: 2021,
         myRating: "Liked",
         gameConsole: ["mq"],
     },
