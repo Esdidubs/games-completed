@@ -683,6 +683,12 @@ let gameData = [
         gameConsole: ["gc"],
     },
     {
+        title: "Moss",
+        yearReleased: 2018,
+        myRating: "Loved",
+        gameConsole: ["mq"],
+    },
+    {
         title: "Moving Out",
         yearReleased: 2020,
         myRating: "Liked",
