@@ -797,6 +797,12 @@ let gameData = [
         gameConsole: ["pc"],
     },
     {
+        title: "Pistol Whip",
+        yearReleased: 2019,
+        myRating: "Liked",
+        gameConsole: ["mq"],
+    },
+    {
         title: "Pixel Ripped 1989",
         yearReleased: 2018,
         myRating: "Liked",
@@ -1217,6 +1223,12 @@ let gameData = [
         gameConsole: ["xsx"],
     },
     {
+        title: "Superhot VR",
+        yearReleased: 2019,
+        myRating: "Liked",
+        gameConsole: ["mq"],
+    },
+    {
         title: "Superliminal",
         yearReleased: 2019,
         myRating: "Liked",
@@ -1269,6 +1281,12 @@ let gameData = [
         yearReleased: 1996,
         myRating: "Meh",
         gameConsole: ["arcade"],
+    },
+    {
+        title: "The Last Clockwinder",
+        yearReleased: 2022,
+        myRating: "Loved",
+        gameConsole: ["mq"],
     },
     {
         title: "The Legend of Zelda: Ocarina of Time",
