@@ -233,6 +233,12 @@ let gameData = [
         gameConsole: ["mq"],
     },
     {
+        title: "Drums Rock",
+        yearReleased: 2022,
+        myRating: "Loved",
+        gameConsole: ["mq"],
+    },
+    {
         title: "Elite Beat Agents",
         yearReleased: 2006,
         myRating: "Liked",
