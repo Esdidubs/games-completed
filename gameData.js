@@ -29,6 +29,12 @@ let gameData = [
         gameConsole: ["gen"],
     },
     {
+        title: "A Fisherman's Tale",
+        yearReleased: 2019,
+        myRating: "Loved",
+        gameConsole: ["mq"],
+    },
+    {
         title: "A Memoir Blue",
         yearReleased: 2022,
         myRating: "Meh",
