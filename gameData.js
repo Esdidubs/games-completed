@@ -1415,6 +1415,12 @@ let gameData = [
         gameConsole: ["gc"],
     },
     {
+        title: "Trover Saves the Universe",
+        yearReleased: 2019,
+        myRating: "Liked",
+        gameConsole: ["mq"],
+    },
+    {
         title: "Twelve Minutes",
         yearReleased: 2021,
         myRating: "Liked",
