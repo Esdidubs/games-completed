@@ -929,6 +929,12 @@ let gameData = [
         gameConsole: ["ios"],
     },
     {
+        title: "Puzzling Places",
+        yearReleased: 2021,
+        myRating: "Liked",
+        gameConsole: ["mq"],
+    },
+    {
         title: "Q.U.B.E. 2",
         yearReleased: 2018,
         myRating: "Liked",
@@ -1047,6 +1053,12 @@ let gameData = [
         yearReleased: 2005,
         myRating: "Liked",
         gameConsole: ["ps3"],
+    },
+    {
+        title: "Shores of Loci",
+        yearReleased: 2022,
+        myRating: "Meh",
+        gameConsole: ["mq"],
     },
     {
         title: "Snipperclips Plus",
