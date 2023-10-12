@@ -1535,6 +1535,12 @@ let gameData = [
         gameConsole: ["xb1"],
     },
     {
+        title: "What The Bat",
+        yearReleased: 2022,
+        myRating: "Liked",
+        gameConsole: ["mq"],
+    },
+    {
         title: "Wizorb",
         yearReleased: 2011,
         myRating: "Liked",
