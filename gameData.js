@@ -473,6 +473,12 @@ let gameData = [
         gameConsole: ["xb1"],
     },
     {
+        title: "Human Resource Machine",
+        yearReleased: 2015,
+        myRating: "Liked",
+        gameConsole: ["pc"],
+    },
+    {
         title: "Idle Acorns",
         yearReleased: 2021,
         myRating: "Meh",
