@@ -1133,6 +1133,12 @@ let gameData = [
         gameConsole: ["ios"],
     },
     {
+        title: "Stray",
+        yearReleased: 2022,
+        myRating: "Loved",
+        gameConsole: ["xsx"],
+    },
+    {
         title: "Street Fighter II",
         yearReleased: 1991,
         myRating: "Meh",
