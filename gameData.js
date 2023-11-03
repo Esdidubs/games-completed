@@ -935,6 +935,12 @@ let gameData = [
         gameConsole: ["ios"],
     },
     {
+        title: "Pure Logic",
+        yearReleased: 2023,
+        myRating: "Liked",
+        gameConsole: ["pc"],
+    },
+    {
         title: "Puzzling Places",
         yearReleased: 2021,
         myRating: "Liked",
