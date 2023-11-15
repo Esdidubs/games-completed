@@ -1559,6 +1559,12 @@ let gameData = [
         gameConsole: ["mq"],
     },
     {
+        title: "Wild West Shootout",
+        yearReleased: 2020,
+        myRating: "Meh",
+        gameConsole: ["arcade"],
+    },
+    {
         title: "Wizorb",
         yearReleased: 2011,
         myRating: "Liked",
