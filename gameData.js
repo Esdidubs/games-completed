@@ -185,6 +185,12 @@ let gameData = [
         gameConsole: ["xsx"],
     },
     {
+        title: "Cocoon",
+        yearReleased: 2023,
+        myRating: "Loved",
+        gameConsole: ["xsx"],
+    },
+    {
         title: "Condemned: Criminal Origins",
         yearReleased: 2005,
         myRating: "Meh",
