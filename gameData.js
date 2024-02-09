@@ -1583,6 +1583,12 @@ let gameData = [
         gameConsole: ["ps3"],
     },
     {
+        title: "Wonderputt Forever",
+        yearReleased: 2021,
+        myRating: "Liked",
+        gameConsole: ["ios"],
+    },
+    {
         title: "Yu-Gi-Oh! Dark Duel Stories",
         yearReleased: 2002,
         myRating: "Meh",
