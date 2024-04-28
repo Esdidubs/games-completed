@@ -131,6 +131,12 @@ let gameData = [
         gameConsole: ["x360"],
     },
     {
+        title: "Botany Manor",
+        yearReleased: 2024,
+        myRating: "Liked",
+        gameConsole: ["xsx"],
+    },
+    {
         title: "Braid",
         yearReleased: 2008,
         myRating: "Meh",
