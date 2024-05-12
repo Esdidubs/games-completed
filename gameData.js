@@ -1133,6 +1133,30 @@ let gameData = [
         gameConsole: ["ps1", "ps3", "xb1"],
     },
     {
+        title: "Star Wars Jedi: Fallen Order",
+        yearReleased: 2019,
+        myRating: "Loved",
+        gameConsole: ["xsx"],
+    },
+    {
+        title: "Star Wars Vader Immortal: Episode 1",
+        yearReleased: 2019,
+        myRating: "Liked",
+        gameConsole: ["mq"],
+    },
+    {
+        title: "Star Wars Vader Immortal: Episode 2",
+        yearReleased: 2019,
+        myRating: "Liked",
+        gameConsole: ["mq"],
+    },
+    {
+        title: "Star Wars Vader Immortal: Episode 3",
+        yearReleased: 2019,
+        myRating: "Liked",
+        gameConsole: ["mq"],
+    },
+    {
         title: "Stardew Valley",
         yearReleased: 2016,
         myRating: "Loved",
